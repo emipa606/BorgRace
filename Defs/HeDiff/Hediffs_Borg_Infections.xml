@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="BorgInfectionBase" Abstract="True">
+  <hediffClass>BorgAssimilate.Hediff_BorgInfection</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Discoverable">
+        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+      </li>
+	  <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>60</severityPerDayNotImmune>
+      </li>
+    </comps>
+	<injuryProps>
+	
+			<canMerge>true</canMerge>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+		</injuryProps>
+  </HediffDef>
+  
+    <HediffDef Name="BorgInfectionBasePlayer" Abstract="True">
+  <hediffClass>BorgAssimilate.Hediff_BorgInfectionPlayer</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Discoverable">
+        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+      </li>
+	  <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>60</severityPerDayNotImmune>
+      </li>
+    </comps>
+	<injuryProps>
+	
+			<canMerge>true</canMerge>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+		</injuryProps>
+  </HediffDef>
+  
+  
+  <HediffDef ParentName="BorgInfectionBase">
+    <defName>BorgInfection</defName>
+    <hediffClass>BorgAssimilate.Hediff_BorgInfection</hediffClass>
+    <defaultLabelColor>(0.7, 0.7, 0.7)</defaultLabelColor>
+    <label>borg nanite probe infection</label>
+    <description>borg nanite probe infection</description>
+    <lethalSeverity>10</lethalSeverity>
+	<maxSeverity>10</maxSeverity>
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+	
+    <stages>
+      <li>
+        <label>initial-hidden</label>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>1</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>4</minSeverity>
+		<lifeThreatening>true</lifeThreatening>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.35</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>6</minSeverity>
+		<lifeThreatening>true</lifeThreatening>
+        <vomitMtbDays>1</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.25</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>8</minSeverity>
+        <vomitMtbDays>0.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.10</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>13</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  
+  <HediffDef ParentName="BorgInfectionBasePlayer">
+    <defName>BorgInfectionPlayer</defName>
+    <hediffClass>BorgAssimilate.Hediff_BorgInfectionPlayer</hediffClass>
+    <defaultLabelColor>(0.7, 0.7, 0.7)</defaultLabelColor>
+    <label>borg nanite probe infection</label>
+    <description>borg nanite probe infection</description>
+    <lethalSeverity>10</lethalSeverity>
+	<maxSeverity>10</maxSeverity>
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+	
+    <stages>
+      <li>
+        <label>initial-hidden</label>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>1</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>4</minSeverity>
+		<lifeThreatening>true</lifeThreatening>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.35</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>6</minSeverity>
+		<lifeThreatening>true</lifeThreatening>
+        <vomitMtbDays>1</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.25</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>8</minSeverity>
+        <vomitMtbDays>0.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.10</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>13</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+  
+  
+  	<HediffDef ParentName="InjuryBase">
+		<defName>BorgInject</defName>
+		<label>inject</label>
+		<description>inject</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>antibodies</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.35</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>nanite injection scar</permanentLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<canMerge>false</canMerge>
+			<destroyedLabel>nanite scars</destroyedLabel>
+			<destroyedOutLabel>nanites removed</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+</Defs>

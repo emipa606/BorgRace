@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="BorgBase" Abstract="True">
+    <race>Alien_Borg_Base</race>
+	<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>BorgBackstories</li>
+			</categories>
+		</li>
+	</backstoryFiltersOverride>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <baseRecruitDifficulty>0.80</baseRecruitDifficulty>
+    <apparelAllowHeadgearChance>0.50</apparelAllowHeadgearChance>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>200</min>
+      <max>500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>600</min>
+      <max>1500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>BorgT1</li>
+    </weaponTags>
+    <techHediffsChance>0</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.75</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>70</max>
+          </countRange>
+        </li>
+        <li>
+          <choiceChance>10</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>300</min>
+            <max>1000</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  
+  <PawnKindDef Name="BorgDrone" ParentName="BorgBase">
+    <defName>BorgDrone</defName>
+    <label>borg tactical drone</label>
+    <defaultFactionType>BorgCollective</defaultFactionType>
+    <combatPower>50</combatPower>
+    <apparelMoney>
+      <min>2300</min>
+      <max>7000</max>
+    </apparelMoney>
+	    <weaponMoney>
+      <min>800</min>
+      <max>1500</max>
+    </weaponMoney>
+    <apparelTags>
+        <li>BorgArmor</li>
+    </apparelTags>
+  </PawnKindDef>
+  
+      <PawnKindDef ParentName="BorgDrone">
+    <defName>BorgDrone2</defName>
+    <label>borg tactical assimilation drone</label>
+    <defaultFactionType>BorgCollective</defaultFactionType>
+    <combatPower>40</combatPower>
+    <apparelMoney>
+      <min>2300</min>
+      <max>7000</max>
+    </apparelMoney>
+	<weaponMoney>
+      <min>500</min>
+      <max>1000</max>
+    </weaponMoney>
+	<weaponTags>
+		  <li>BorgNaniteProbe</li>
+	</weaponTags>
+    <apparelTags>
+        <li>BorgArmor</li>
+    </apparelTags>
+  </PawnKindDef>
+  
+<PawnKindDef ParentName="BorgDrone">
+    <defName>BorgDrone3</defName>
+    <label>borg drone</label>
+    <defaultFactionType>BorgCollective</defaultFactionType>
+    <combatPower>20</combatPower>
+    <apparelMoney>
+      <min>0</min>
+      <max>1000</max>
+    </apparelMoney>
+	<weaponMoney>
+	<min>800</min>
+	<max>1500</max>
+	</weaponMoney>
+	<weaponTags>
+		  <li>BorgT1</li>
+	</weaponTags>
+    <apparelTags>
+        <li>BorgArmor</li>
+    </apparelTags>
+  </PawnKindDef>
+  
+   <PawnKindDef ParentName="BorgDrone">
+    <defName>BorgCommand</defName>
+    <label>borg secondary adjunct</label>
+    <defaultFactionType>BorgCollective</defaultFactionType>
+    <combatPower>90</combatPower>
+    <apparelMoney>
+      <min>2300</min>
+      <max>7000</max>
+    </apparelMoney>
+    <apparelTags>
+        <li>BorgArmor</li>
+    </apparelTags>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="BorgDrone">
+    <defName>PlayerBorgDrone</defName>
+    <label>borg drone</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <combatPower>90</combatPower>
+    <apparelMoney>
+      <min>0</min>
+      <max>1</max>
+    </apparelMoney>
+		<weaponMoney>
+	<min>800</min>
+	<max>1500</max>
+	</weaponMoney>
+	<weaponTags>
+		<li>BorgT1</li>
+	</weaponTags>
+    <apparelTags>
+		<li>BorgArmor</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  
+</Defs>

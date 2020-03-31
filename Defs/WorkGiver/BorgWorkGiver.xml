@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <WorkGiverDef>
+  <defName>DoBillsBorgMachiningStation</defName>
+  <label>adapting...</label>
+  <giverClass>WorkGiver_DoBill</giverClass>
+  <workType>Crafting</workType>
+  <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>BorgMachiningStation</li>
+    </fixedBillGiverDefs>
+  <verb>craft</verb>
+  <gerund>adapting..</gerund>
+  <requiredCapacities>
+      <li>Manipulation</li>
+  </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  
+  
+    <WorkGiverDef>
+  <defName>DoBillsBorgNutrientPasteDispenser</defName>
+  <label>synthesizing...</label>
+  <giverClass>WorkGiver_DoBill</giverClass>
+  <workType>Cooking</workType>
+  <priorityInType>110</priorityInType>
+    <fixedBillGiverDefs>
+      <li>BorgNutrientDispenser</li>
+    </fixedBillGiverDefs>
+  <verb>cook</verb>
+  <gerund>synthesizing..</gerund>
+  <requiredCapacities>
+      <li>Manipulation</li>
+  </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+
+  
+</Defs>
+

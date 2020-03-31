@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef Name="NaniteInjection" ParentName="CutBase">
+    <defName>BorgNaniteProbe</defName>
+    <label>assimilation probe</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been injected with borg nanites.</deathMessage>
+    <hediff>BorgInfection</hediff>
+    <hediffSolid>BorgInject</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+  
+  <DamageDef Name="NaniteInjectionPlayer" ParentName="CutBase">
+    <defName>BorgNaniteProbePlayer</defName>
+    <label>assimilation probe</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been injected with borg nanites.</deathMessage>
+    <hediff>BorgInfectionPlayer</hediff>
+    <hediffSolid>BorgInject</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+  
+
+</Defs>

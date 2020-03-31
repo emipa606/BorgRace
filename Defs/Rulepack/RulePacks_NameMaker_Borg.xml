@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerFactionBorg</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name->[BorgFactionNames]</li>
+      </rulesStrings>
+	<rulesRaw>
+	    <li Class="Rule_File">
+          <keyword>BorgFactionNames</keyword>
+          <path>NameBanks/BorgFactionNames</path>
+        </li>
+    </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerPersonBorg</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[Letter] '[BorgNames]-of-[BorgNames]' [Letter]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>BorgNames</keyword>
+          <path>NameBanks/BorgNames</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerFactionBaseBorg</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>name->Borg Station Alpha</li>
+		<li>name->Borg Station Beta</li>
+		<li>name->Borg Station Charlie</li>
+		<li>name->Borg Station Delta</li>
+		<li>name->Borg Station Epsilon</li>
+		<li>name->Borg Station Gamma</li>
+		<li>name->Borg Station Eta</li>
+		<li>name->Borg Station Theta</li>
+		<li>name->Borg Station Iota</li>
+		<li>name->Borg Station Kappa</li>
+		<li>name->Borg Station Lambda</li>
+		<li>name->Borg Station Mu</li>
+		<li>name->Borg Station Rho</li>
+		<li>name->Borg Station Sigma</li>		
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+</Defs>
+
+
+
+
+
+
+
