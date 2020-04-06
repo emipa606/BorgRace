@@ -1,150 +1,137 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-  	<ResearchTabDef>
-		<defName>BorgT</defName>
-		<label>Borg Technology</label>
-	</ResearchTabDef>
-  
-    <ResearchProjectDef>
+  <ResearchTabDef>
+    <defName>BorgT</defName>
+    <label>Borg Technology</label>
+  </ResearchTabDef>
+  <ResearchProjectDef>
     <defName>BorgT1</defName>
     <label>Nanite Research</label>
     <techLevel>Spacer</techLevel>
     <description>Development of basic nanite technologies - used in standard borg daily routines. Specifically, nanites researched in this technology provide access to assimilated conduit cables, tougher and stronger than most other humanoid designs.</description>
     <baseCost>500</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>0</researchViewX>
-	<researchViewY>0</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
     <prerequisites>
-	  <li>MicroelectronicsBasics</li>
+      <li>MicroelectronicsBasics</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
-        <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT1point5</defName>
     <label>Adapted manufacturing</label>
     <techLevel>Spacer</techLevel>
     <description>Nanites have been adapted to function with existing advanced humanoid manufacturing technologies to produce the borg machining station. This station is necessary for the continued development and production of Borg devices.</description>
     <baseCost>750</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>1</researchViewX>
-	<researchViewY>0</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
     <prerequisites>
       <li>Electricity</li>
-	  <li>Smithing</li>
+      <li>Smithing</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>	
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
-      <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT2</defName>
     <label>Regeneration Nanites</label>
     <techLevel>Spacer</techLevel>
     <description>Medical technology adapted to the collective by the introduction of advanced nanites. As the borg circulatory system is built from blood cells infused with molecular nanites, this technology provides access to simple borg prosthetics designed to increase cellular resiliency.</description>
     <baseCost>750</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>1</researchViewX>
-	<researchViewY>1</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
     <prerequisites>
-	  <li>BorgT1</li>
+      <li>BorgT1</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
-        <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT2point5</defName>
     <label>reinforced nanite body glove and armor</label>
     <techLevel>Spacer</techLevel>
     <description>With the advent of advanced machining technology, nanites have been adapted to enhance the standard drone body by utilizing available material to construct a comprehensive body glove that maintains the optimal temperature of the body, while thick ablative armor prosthetics have been developed to protect against kinetic and energy weaponry.</description>
     <baseCost>750</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>2</researchViewX>
-	<researchViewY>0</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
     <prerequisites>
-	  <li>MicroelectronicsBasics</li>
-	  <li>BorgT1point5</li>
+      <li>MicroelectronicsBasics</li>
+      <li>BorgT1point5</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
-      <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT3</defName>
     <label>Assimilated power technologies</label>
     <techLevel>Spacer</techLevel>
     <description>The power requirements for maintaining the systems and devices used onboard Borg vessels and outposts is massive - this research provides avenues for the assimilation and adaptation of other humanoid power devices. The infusion of specifically developed nanites results in a massively increased power output. The power station developed from this technology is powered by chemical fuels.</description>
     <baseCost>1000</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>3</researchViewX>
-	<researchViewY>0</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
     <prerequisites>
-	  <li>MicroelectronicsBasics</li>
-	  <li>BorgT1point5</li>
+      <li>MicroelectronicsBasics</li>
+      <li>BorgT1point5</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-
-  
-      <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT4</defName>
     <label>Cellular nanite prosthetics technology</label>
     <techLevel>Spacer</techLevel>
     <description>The cellular nanites initially injected into a borg host are simple - at least for the borg. Research and expansion of these nanites results in the development of several prosthetics that can be adapted onto any borg frame to increase the output of a drone in any number of specific fields.</description>
     <baseCost>1000</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>2</researchViewX>
-	<researchViewY>1</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
     <prerequisites>
-	  <li>BorgT2</li>
+      <li>BorgT2</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
-      <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT5</defName>
     <label>Advanced nanite prosthetic technologies</label>
     <techLevel>Spacer</techLevel>
     <description>Progress in the cellular nanite field. These advanced cellular nanites have the potential to develop into even sturdier prosthetics to be adapted onto the drone frame.</description>
     <baseCost>1250</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>4</researchViewX>
-	<researchViewY>0</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0</researchViewY>
     <prerequisites>
-	  <li>BorgT3</li>
+      <li>BorgT3</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
-      <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT6</defName>
     <label>Adapted assimilation technologies</label>
     <techLevel>Spacer</techLevel>
     <description>With progress being made in other fields, one area that requires a more delicate focus is that of assimilation. Standard collective technology is barebones, designed to incorporate any humanoid into the collective. As we are disconnected from the main hive, careful steps must be taken as to not destroy the target. This technology results in the adapted nanite probe, an extremely expensive to create assimilation probe.</description>
     <baseCost>2000</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>3</researchViewX>
-	<researchViewY>2</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2</researchViewY>
     <prerequisites>
-	  <li>BorgT5</li>
-	  <li>BorgT4</li>
+      <li>BorgT5</li>
+      <li>BorgT4</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
-        <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>BorgT7</defName>
     <label>Advanced plasma weaponry</label>
     <techLevel>Spacer</techLevel>
     <description>Plasma technology has been a staple of tactically deployed drones both on the ground and in space as ship-based weaponry. With significant advances in plasma and nanite technologies, new weapons have been developed to provide heavy support to any deployed unit.</description>
     <baseCost>2000</baseCost>
-	<tab>BorgT</tab>
-	<researchViewX>4</researchViewX>
-	<researchViewY>1</researchViewY>
+    <tab>BorgT</tab>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
     <prerequisites>
-	  <li>BorgT6</li>
+      <li>BorgT6</li>
     </prerequisites>
-	<requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
+    <requiredResearchBuilding>BorgResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
-  
 </Defs>

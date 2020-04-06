@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="MealBase">
     <defName>BorgNutrientPaste</defName>
     <label>borg nutrient paste</label>
@@ -19,15 +18,15 @@
       <Mass>0.018</Mass>
       <WorkToMake>300</WorkToMake>
       <Nutrition>0.5</Nutrition>
-	<DeteriorationRate>2</DeteriorationRate>
+      <DeteriorationRate>2</DeteriorationRate>
     </statBases>
     <ingestible>
       <foodType>Meal</foodType>
       <preferability>MealSimple</preferability>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
-		<optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
-		</ingestible>
+      <optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
+    </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>80</daysToRotStart>
@@ -36,6 +35,4 @@
       <li Class="CompProperties_Ingredients" />
     </comps>
   </ThingDef>
-
-  
 </Defs>

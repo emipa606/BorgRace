@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <DamageDef Name="NaniteInjection" ParentName="CutBase">
     <defName>BorgNaniteProbe</defName>
     <label>assimilation probe</label>
@@ -12,7 +11,6 @@
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
   </DamageDef>
-  
   <DamageDef Name="NaniteInjectionPlayer" ParentName="CutBase">
     <defName>BorgNaniteProbePlayer</defName>
     <label>assimilation probe</label>
@@ -24,6 +22,4 @@
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
   </DamageDef>
-  
-
 </Defs>

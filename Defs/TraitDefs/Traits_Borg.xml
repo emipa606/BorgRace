@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <TraitDef>
     <defName>Borg</defName>
     <commonality>0.2</commonality>
@@ -11,8 +10,7 @@
       </li>
     </degreeDatas>
   </TraitDef>
-
-    <TraitDef>
+  <TraitDef>
     <defName>Hivemind</defName>
     <commonality>0.2</commonality>
     <degreeDatas>
@@ -26,8 +24,7 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
-      <TraitDef>
+  <TraitDef>
     <defName>BorgProsthetics</defName>
     <commonality>0.2</commonality>
     <degreeDatas>
@@ -35,10 +32,9 @@
         <label>nanite proshetics</label>
         <description>{PAWN_nameDef}, on initial assimilation, was fitted with a number of basic prosthetic and cybernetic improvements to their organic body. This has resulted in a more efficient work rate.</description>
         <statOffsets>
-            <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
         </statOffsets>
       </li>
     </degreeDatas>
   </TraitDef>
-  
 </Defs>

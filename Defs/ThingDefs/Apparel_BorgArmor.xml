@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
   <ThingDef Name="ArmorHelmetMakeableBorg" ParentName="ArmorMakeableBaseBorg" Abstract="True">
     <thingCategories>
       <li>Headgear</li>
@@ -11,8 +9,7 @@
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>
-  </ThingDef>  
-  
+  </ThingDef>
   <ThingDef Name="ApparelBaseBorg" Abstract="True">
     <thingClass>Apparel</thingClass>
     <category>Item</category>
@@ -32,8 +29,8 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
-	<comps>
-      <li Class="CompProperties_Forbiddable"/>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
       <li>
         <compClass>CompEquippable</compClass>
       </li>
@@ -42,10 +39,9 @@
       </li>
     </comps>
   </ThingDef>
-  
   <ThingDef Name="ApparelMakeableBaseBorg" ParentName="ApparelBaseBorg" Abstract="True">
     <recipeMaker>
-      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>
@@ -60,23 +56,21 @@
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
-	  <recipeUsers>
+      <recipeUsers>
         <li>BorgMachiningStation</li>
       </recipeUsers>
       <soundWorking>Recipe_Machining</soundWorking>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
-  
   <!-- Borg -->
- 
   <ThingDef ParentName="ArmorMakeableBaseBorg">
     <defName>Apparel_BorgArmor</defName>
     <label>borg drone armor</label>
     <description>The borg have designed this as something of a secondary carapace, protecting delicate nanites underneath as they continue their endless task of assimilation, refinement, and cellular maintenance. The armor itself is incredibly sturdy, capable of shrugging off smaller arms and buffering stronger weapons.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
-        <researchPrerequisite>BorgT4</researchPrerequisite>
+      <researchPrerequisite>BorgT4</researchPrerequisite>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
@@ -89,14 +83,14 @@
       <MarketValue>250</MarketValue>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
-	  <Insulation_Cold>-20</Insulation_Cold>
-	  <Insulation_Heat>40</Insulation_Heat>
-	  <Mass>5.3</Mass>
+      <Insulation_Cold>20</Insulation_Cold>
+      <Insulation_Heat>40</Insulation_Heat>
+      <Mass>5.3</Mass>
     </statBases>
     <costList>
       <Steel>180</Steel>
-	  <Plasteel>20</Plasteel>
-	  <ComponentIndustrial>5</ComponentIndustrial>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -105,20 +99,19 @@
       <MoveSpeed>-0.15</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
-	<layers>
-    <li>OnSkin</li>
-    </layers>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
       <bodyPartGroups>
         <li>Torso</li>
-		<li>Shoulders</li>
+        <li>Shoulders</li>
         <li>Arms</li>
-		<li>Legs</li>
+        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Borg/Uniforms/BorgDrone</wornGraphicPath>
-		<tags>
-		<li>BorgArmor</li>
-		</tags>
-		</apparel>
-	</ThingDef>		
-
+      <tags>
+        <li>BorgArmor</li>
+      </tags>
+    </apparel>
+  </ThingDef>
 </Defs>

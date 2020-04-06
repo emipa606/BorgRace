@@ -1,44 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
   <WorkGiverDef>
-  <defName>DoBillsBorgMachiningStation</defName>
-  <label>adapting...</label>
-  <giverClass>WorkGiver_DoBill</giverClass>
-  <workType>Crafting</workType>
-  <priorityInType>110</priorityInType>
+    <defName>DoBillsBorgMachiningStation</defName>
+    <label>adapting...</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>110</priorityInType>
     <fixedBillGiverDefs>
       <li>BorgMachiningStation</li>
     </fixedBillGiverDefs>
-  <verb>craft</verb>
-  <gerund>adapting..</gerund>
-  <requiredCapacities>
+    <verb>craft</verb>
+    <gerund>adapting..</gerund>
+    <requiredCapacities>
       <li>Manipulation</li>
-  </requiredCapacities>
+    </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
-
-  
-  
-    <WorkGiverDef>
-  <defName>DoBillsBorgNutrientPasteDispenser</defName>
-  <label>synthesizing...</label>
-  <giverClass>WorkGiver_DoBill</giverClass>
-  <workType>Cooking</workType>
-  <priorityInType>110</priorityInType>
+  <WorkGiverDef>
+    <defName>DoBillsBorgNutrientPasteDispenser</defName>
+    <label>synthesizing...</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>110</priorityInType>
     <fixedBillGiverDefs>
       <li>BorgNutrientDispenser</li>
     </fixedBillGiverDefs>
-  <verb>cook</verb>
-  <gerund>synthesizing..</gerund>
-  <requiredCapacities>
+    <verb>cook</verb>
+    <gerund>synthesizing..</gerund>
+    <requiredCapacities>
       <li>Manipulation</li>
-  </requiredCapacities>
+    </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
-  
-
-  
 </Defs>
-

@@ -1,47 +1,41 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <HediffDef Name="BorgInfectionBase" Abstract="True">
-  <hediffClass>BorgAssimilate.Hediff_BorgInfection</hediffClass>
+    <hediffClass>BorgAssimilate.Hediff_BorgInfection</hediffClass>
     <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
     <initialSeverity>1</initialSeverity>
     <comps>
       <li Class="HediffCompProperties_Discoverable">
         <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
       </li>
-	  <li Class="HediffCompProperties_Immunizable">
+      <li Class="HediffCompProperties_Immunizable">
         <severityPerDayNotImmune>60</severityPerDayNotImmune>
       </li>
     </comps>
-	<injuryProps>
-	
-			<canMerge>true</canMerge>
-			<destroyedLabel>Cut off</destroyedLabel>
-			<destroyedOutLabel>Cut out</destroyedOutLabel>
-		</injuryProps>
+    <injuryProps>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Cut off</destroyedLabel>
+      <destroyedOutLabel>Cut out</destroyedOutLabel>
+    </injuryProps>
   </HediffDef>
-  
-    <HediffDef Name="BorgInfectionBasePlayer" Abstract="True">
-  <hediffClass>BorgAssimilate.Hediff_BorgInfectionPlayer</hediffClass>
+  <HediffDef Name="BorgInfectionBasePlayer" Abstract="True">
+    <hediffClass>BorgAssimilate.Hediff_BorgInfectionPlayer</hediffClass>
     <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
     <initialSeverity>1</initialSeverity>
     <comps>
       <li Class="HediffCompProperties_Discoverable">
         <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
       </li>
-	  <li Class="HediffCompProperties_Immunizable">
+      <li Class="HediffCompProperties_Immunizable">
         <severityPerDayNotImmune>60</severityPerDayNotImmune>
       </li>
     </comps>
-	<injuryProps>
-	
-			<canMerge>true</canMerge>
-			<destroyedLabel>Cut off</destroyedLabel>
-			<destroyedOutLabel>Cut out</destroyedOutLabel>
-		</injuryProps>
+    <injuryProps>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Cut off</destroyedLabel>
+      <destroyedOutLabel>Cut out</destroyedOutLabel>
+    </injuryProps>
   </HediffDef>
-  
-  
   <HediffDef ParentName="BorgInfectionBase">
     <defName>BorgInfection</defName>
     <hediffClass>BorgAssimilate.Hediff_BorgInfection</hediffClass>
@@ -49,10 +43,9 @@
     <label>borg nanite probe infection</label>
     <description>borg nanite probe infection</description>
     <lethalSeverity>10</lethalSeverity>
-	<maxSeverity>10</maxSeverity>
+    <maxSeverity>10</maxSeverity>
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>true</scenarioCanAdd>
-	
     <stages>
       <li>
         <label>initial-hidden</label>
@@ -80,7 +73,7 @@
       <li>
         <label>moderate</label>
         <minSeverity>4</minSeverity>
-		<lifeThreatening>true</lifeThreatening>
+        <lifeThreatening>true</lifeThreatening>
         <vomitMtbDays>5</vomitMtbDays>
         <capMods>
           <li>
@@ -92,7 +85,7 @@
       <li>
         <label>serious</label>
         <minSeverity>6</minSeverity>
-		<lifeThreatening>true</lifeThreatening>
+        <lifeThreatening>true</lifeThreatening>
         <vomitMtbDays>1</vomitMtbDays>
         <capMods>
           <li>
@@ -123,8 +116,6 @@
       </li>
     </stages>
   </HediffDef>
-  
-  
   <HediffDef ParentName="BorgInfectionBasePlayer">
     <defName>BorgInfectionPlayer</defName>
     <hediffClass>BorgAssimilate.Hediff_BorgInfectionPlayer</hediffClass>
@@ -132,10 +123,9 @@
     <label>borg nanite probe infection</label>
     <description>borg nanite probe infection</description>
     <lethalSeverity>10</lethalSeverity>
-	<maxSeverity>10</maxSeverity>
+    <maxSeverity>10</maxSeverity>
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>true</scenarioCanAdd>
-	
     <stages>
       <li>
         <label>initial-hidden</label>
@@ -163,7 +153,7 @@
       <li>
         <label>moderate</label>
         <minSeverity>4</minSeverity>
-		<lifeThreatening>true</lifeThreatening>
+        <lifeThreatening>true</lifeThreatening>
         <vomitMtbDays>5</vomitMtbDays>
         <capMods>
           <li>
@@ -175,7 +165,7 @@
       <li>
         <label>serious</label>
         <minSeverity>6</minSeverity>
-		<lifeThreatening>true</lifeThreatening>
+        <lifeThreatening>true</lifeThreatening>
         <vomitMtbDays>1</vomitMtbDays>
         <capMods>
           <li>
@@ -206,13 +196,10 @@
       </li>
     </stages>
   </HediffDef>
-
-  
-  
-  	<HediffDef ParentName="InjuryBase">
-		<defName>BorgInject</defName>
-		<label>inject</label>
-		<description>inject</description>
+  <HediffDef ParentName="InjuryBase">
+    <defName>BorgInject</defName>
+    <label>inject</label>
+    <description>inject</description>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>bandaged</labelTendedWell>
@@ -220,18 +207,18 @@
         <labelSolidTendedWell>antibodies</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.35</infectionChance>
+        <infectionChance>0.7</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>nanite injection scar</permanentLabel>
       </li>
     </comps>
-		<injuryProps>
+    <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-			<canMerge>false</canMerge>
-			<destroyedLabel>nanite scars</destroyedLabel>
-			<destroyedOutLabel>nanites removed</destroyedOutLabel>
-		</injuryProps>
-	</HediffDef>
+      <canMerge>false</canMerge>
+      <destroyedLabel>nanite scars</destroyedLabel>
+      <destroyedOutLabel>nanites removed</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
 </Defs>

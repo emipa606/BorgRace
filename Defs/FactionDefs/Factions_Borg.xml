@@ -1,59 +1,58 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
   <FactionDef>
-		<defName>BorgCollective</defName>
-		<label>Borg station</label>
-		<description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</description>
-		<pawnsPlural>Borg</pawnsPlural>
-		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<settlementGenerationWeight>.2</settlementGenerationWeight>
-		<canSiege>true</canSiege>
-		<factionIconPath>Things/Borg/Items/BorgHome</factionIconPath>
-		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>Secondary Adjunct</leaderTitle>
-		<pawnNameMaker>NamerPersonBorg</pawnNameMaker>
+    <defName>BorgCollective</defName>
+    <label>Borg station</label>
+    <description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</description>
+    <pawnsPlural>Borg</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>.2</settlementGenerationWeight>
+    <canSiege>true</canSiege>
+    <factionIconPath>Things/Borg/Items/BorgHome</factionIconPath>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Secondary Adjunct</leaderTitle>
+    <pawnNameMaker>NamerPersonBorg</pawnNameMaker>
     <startingGoodwill>
       <min>-100</min>
       <max>-50</max>
     </startingGoodwill>
-	 <naturalColonyGoodwill>
+    <naturalColonyGoodwill>
       <min>-10</min>
       <max>-2</max>
     </naturalColonyGoodwill>
-			<hairTags>
-			<li>Rural</li>
-		</hairTags>
-		<factionNameMaker>NamerFactionBorg</factionNameMaker>
-		<settlementNameMaker>NamerFactionBaseBorg</settlementNameMaker>
-		<techLevel>Spacer</techLevel>
-		<backstoryFilters>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <factionNameMaker>NamerFactionBorg</factionNameMaker>
+    <settlementNameMaker>NamerSettlementBorg</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryFilters>
       <li>
         <categories>
           <li>BorgBackstories</li>
         </categories>
       </li>
     </backstoryFilters>
-	<pawnGroupMakers>
-    	<li>
-		<kindDef>Combat</kindDef>
-		<commonality>100</commonality>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
         <options>
-		<BorgDrone>100</BorgDrone>
-		<BorgDrone2>20</BorgDrone2>
-		<BorgDrone2>50</BorgDrone2>
+          <BorgDrone>100</BorgDrone>
+          <BorgDrone2>20</BorgDrone2>
+          <BorgDrone2>50</BorgDrone2>
         </options>
       </li>
-	  <li>
-	  <kindDef>Settlement</kindDef>
-	  <options>
-		<BorgDrone>100</BorgDrone>
-		<BorgDrone2>20</BorgDrone2>
-		<BorgDrone3>80</BorgDrone3>
-		<BorgCommand>1</BorgCommand>
-		</options>
-		</li>
-	</pawnGroupMakers>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <BorgDrone>100</BorgDrone>
+          <BorgDrone2>20</BorgDrone2>
+          <BorgDrone3>80</BorgDrone3>
+          <BorgCommand>1</BorgCommand>
+        </options>
+      </li>
+    </pawnGroupMakers>
     <allowedArrivalTemperatureRange>
       <min>-100</min>
       <max>120</max>
@@ -69,8 +68,7 @@
     </maxPawnCostPerTotalPointsCurve>
     <settlementTexturePath>Things/Borg/Items/BorgHome</settlementTexturePath>
   </FactionDef>
-  
-   <FactionDef ParentName="PlayerFactionBase">
+  <FactionDef ParentName="PlayerFactionBase">
     <defName>BorgCollectivePlayer</defName>
     <label>Borg Station Alpha</label>
     <description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</description>
@@ -80,26 +78,23 @@
     <pawnsPlural>borg</pawnsPlural>
     <techLevel>Spacer</techLevel>
     <backstoryCategories>
-	  <li>BorgBackstories</li>
+      <li>BorgBackstories</li>
     </backstoryCategories>
     <factionIconPath>Things/Borg/Items/BorgHome</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-	<factionNameMaker>NamerFactionBorg</factionNameMaker>
-    <settlementNameMaker>NamerFactionBaseBorg</settlementNameMaker>
+    <factionNameMaker>NamerFactionBorg</factionNameMaker>
+    <settlementNameMaker>NamerSettlementBorg</settlementNameMaker>
     <geneticVariance>1</geneticVariance>
-	<startingResearchTags>
-		<li>ClassicStart</li>
-	</startingResearchTags>
-	<hairTags>
-		<li>Rural</li>
-	</hairTags>
-	<apparelStuffFilter>
-		<thingDefs>
-			<li>Synthread</li>
-		</thingDefs>
-	</apparelStuffFilter>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
   </FactionDef>
-  
 </Defs>
-
-   

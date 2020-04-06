@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    
-  	<RecipeDef Name="CookBorgPaste" ParentName="CookMealBase">
-      <defName>CookBorgNutrientPaste</defName>
+  <RecipeDef Name="CookBorgPaste" ParentName="CookMealBase">
+    <defName>CookBorgNutrientPaste</defName>
     <label>synthesize nutrient paste</label>
     <description>Utilizes the nutrient dispenser to synthesize organic paste.</description>
     <jobString>Synthesizing nutrients.</jobString>
@@ -23,14 +21,12 @@
         <count>0.5</count>
       </li>
     </ingredients>
-		<products>
-			<BorgNutrientPaste>1</BorgNutrientPaste>
-		</products>
+    <products>
+      <BorgNutrientPaste>1</BorgNutrientPaste>
+    </products>
     <workSkill>Cooking</workSkill>
-	<recipeUsers>
-			<li>BorgNutrientDispenser</li>
-	</recipeUsers>
+    <recipeUsers>
+      <li>BorgNutrientDispenser</li>
+    </recipeUsers>
   </RecipeDef>
-
 </Defs>
-  

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-    <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="BenchBase">
     <defName>BorgMachiningStation</defName>
     <label>Borg machining station</label>
     <thingClass>Building_WorkTable</thingClass>
@@ -29,7 +28,7 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <Cleanliness>1</Cleanliness>
-	  <WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+      <WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
     </statBases>
     <size>(3,1)</size>
     <designationCategory>Production</designationCategory>
@@ -38,8 +37,8 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
-	<recipes>
-	</recipes>
+    <recipes>
+    </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -48,7 +47,7 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>500</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Glower">
         <glowRadius>5</glowRadius>
         <glowColor>(73,123,138,0)</glowColor>
@@ -58,19 +57,20 @@
           <li>ToolCabinet</li>
         </linkableFacilities>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <constructEffect>ConstructMetal</constructEffect>
-    <researchPrerequisites><li>BorgT1point5</li></researchPrerequisites>
+    <researchPrerequisites>
+      <li>BorgT1point5</li>
+    </researchPrerequisites>
     <designationHotKey>Misc7</designationHotKey>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
-  
   <ThingDef ParentName="BenchBase">
     <defName>BorgResearchBench</defName>
     <label>adapted borg research bench</label>
@@ -116,7 +116,7 @@
         <basePowerConsumption>250</basePowerConsumption>
         <shortCircuitInRain>true</shortCircuitInRain>
       </li>
-      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
           <li>MultiAnalyzer</li>
@@ -130,15 +130,14 @@
     <designationCategory>Production</designationCategory>
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-	<placeWorkers>
+    <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-	</placeWorkers>
+    </placeWorkers>
     <researchPrerequisites>
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
   </ThingDef>
-  
   <ThingDef Abstract="True" Name="StandingLampBaseBorg" ParentName="LampBase">
     <graphicData>
       <texPath>Things/Borg/Items/BorgWaystation</texPath>
@@ -157,8 +156,7 @@
       </li>
     </comps>
   </ThingDef>
-  
-    <ThingDef ParentName="StandingLampBaseBorg" >
+  <ThingDef ParentName="StandingLampBaseBorg">
     <defName>BorgWaystation</defName>
     <label>borg power coupling</label>
     <description>A borg device used to maintain power flow, providing a small degree of radiated heat and light to an area.</description>
@@ -168,19 +166,17 @@
         <glowRadius>12</glowRadius>
         <glowColor>(57,236,95,0)</glowColor>
       </li>
-	  <li Class="CompProperties_HeatPusher">
+      <li Class="CompProperties_HeatPusher">
         <heatPerSecond>11</heatPerSecond>
         <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
-	<researchPrerequisites>
+    <researchPrerequisites>
       <li>Electricity</li>
-	  <li>BorgT1</li>
+      <li>BorgT1</li>
     </researchPrerequisites>
   </ThingDef>
-  
-  
-  	<TerrainDef ParentName="FloorBase">
+  <TerrainDef ParentName="FloorBase">
     <defName>BorgTile</defName>
     <label>adapted tile</label>
     <renderPrecedence>240</renderPrecedence>
@@ -189,20 +185,19 @@
     <color>(0.369, 0.369, 0.369)</color>
     <statBases>
       <WorkToBuild>400</WorkToBuild>
-			<Beauty>1</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <costList>
       <Steel>4</Steel>
     </costList>
-	<researchPrerequisites>
+    <researchPrerequisites>
       <li>Electricity</li>
-	  <li>BorgT1</li>
+      <li>BorgT1</li>
     </researchPrerequisites>
     <constructEffect>ConstructMetal</constructEffect>
     <designationHotKey>Misc1</designationHotKey>
   </TerrainDef>
-  
-    <TerrainDef ParentName="FloorBase">
+  <TerrainDef ParentName="FloorBase">
     <defName>BorgTileB</defName>
     <label>adapted tile</label>
     <renderPrecedence>240</renderPrecedence>
@@ -211,21 +206,19 @@
     <color>(0.369, 0.369, 0.369)</color>
     <statBases>
       <WorkToBuild>400</WorkToBuild>
-			<Beauty>1</Beauty>
+      <Beauty>1</Beauty>
     </statBases>
     <costList>
       <Steel>4</Steel>
     </costList>
     <constructEffect>ConstructMetal</constructEffect>
-	<researchPrerequisites>
+    <researchPrerequisites>
       <li>Electricity</li>
-	  <li>BorgT1</li>
+      <li>BorgT1</li>
     </researchPrerequisites>
     <designationHotKey>Misc1</designationHotKey>
   </TerrainDef>
-  
-  
-   <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>BorgPowerConduit</defName>
     <label>adapted power conduit</label>
     <thingClass>Building</thingClass>
@@ -243,12 +236,12 @@
     </graphicData>
     <uiIconPath>Things/Borg/Items/BorgPowerConduit_MenuIcon</uiIconPath>
     <building>
-			<ai_chillDestination>false</ai_chillDestination>
-			<isInert>true</isInert>
-		  <isEdifice>false</isEdifice>
-		<blueprintGraphicData>
-		  <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
-		</blueprintGraphicData>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
     </building>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <passability>Standable</passability>
@@ -283,11 +276,10 @@
     <designationHotKey>Misc1</designationHotKey>
     <researchPrerequisites>
       <li>Electricity</li>
-	  <li>BorgT1</li>
+      <li>BorgT1</li>
     </researchPrerequisites>
   </ThingDef>
-  
-    <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>BorgBattery</defName>
     <label>adapted battery</label>
     <thingClass>Building_Battery</thingClass>
@@ -308,8 +300,8 @@
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.40</fillPercent>
-    <tickerType>Normal</tickerType>	
-    <minifiedDef>MinifiedThing</minifiedDef>	
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <thingCategories>
       <li>BuildingsPower</li>
     </thingCategories>
@@ -332,7 +324,7 @@
         <efficiency>0.7</efficiency>
         <transmitsPower>true</transmitsPower>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
@@ -342,12 +334,10 @@
     <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
-	  <li>BorgT3</li>
+      <li>BorgT3</li>
     </researchPrerequisites>
   </ThingDef>
-  
-  
-    <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>BorgGenerator</defName>
     <label>borg adapted generator</label>
     <thingClass>Building</thingClass>
@@ -375,7 +365,7 @@
     <costList>
       <Steel>120</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
-	  <Silver>30</Silver>
+      <Silver>30</Silver>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -401,7 +391,7 @@
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>4</heatPerSecond>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
@@ -410,12 +400,10 @@
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
       <li>Electricity</li>
-	  <li>BorgT3</li>
+      <li>BorgT3</li>
     </researchPrerequisites>
   </ThingDef>
- 
-  
-   <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="BenchBase">
     <defName>BorgNutrientDispenser</defName>
     <label>borg adapted nutrient synthesizer</label>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
@@ -459,19 +447,16 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>350</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <building>
-	  <isMealSource>true</isMealSource>
+      <isMealSource>true</isMealSource>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
     </building>
     <designationHotKey>Misc8</designationHotKey>
   </ThingDef>
-  
-  
-  
   <ThingDef ParentName="FurnitureBase">
     <defName>BorgBed</defName>
     <label>borg recharging station</label>
@@ -515,7 +500,7 @@
           <li>VitalsMonitor</li>
         </linkableFacilities>
       </li>
-		<li Class="CompProperties_AssignableToPawn">
+      <li Class="CompProperties_AssignableToPawn">
         <drawAssignmentOverlay>false</drawAssignmentOverlay>
         <compClass>CompAssignableToPawn_Bed</compClass>
       </li>
@@ -523,8 +508,8 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>50</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <fillPercent>0.4</fillPercent>
     <pathCost>60</pathCost>
@@ -534,11 +519,10 @@
     <passability>PassThroughOnly</passability>
     <drawGUIOverlay>True</drawGUIOverlay>
     <canOverlapZones>true</canOverlapZones>
-	<placeWorkers>
-		<li>PlaceWorker_ShowFacilitiesConnections</li>
-	</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
-     
   <ThingDef ParentName="FurnitureBase">
     <defName>BorgMaintenancePanel</defName>
     <label>borg maintenance panel</label>
@@ -581,6 +565,4 @@
     <designationCategory>Joy</designationCategory>
     <designationHotKey>Misc2</designationHotKey>
   </ThingDef>
-  
-
 </Defs>

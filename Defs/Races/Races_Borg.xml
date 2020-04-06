@@ -1,7 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
   <ThingDef Name="BasePawnBorg" ParentName="BasePawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
@@ -27,157 +25,152 @@
       </li>
     </comps>
     <drawGUIOverlay>true</drawGUIOverlay>
-  </ThingDef>  
-  
+  </ThingDef>
   <!-- ============================ Borg Base ========================== -->
-
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Alien_Borg_Base</defName>
     <label>borg</label>
     <description>The borg are a race of many different species all organized in nanite-based hive mind, commonly referred to as the collective. The main task of all borg is the assimilation of other species into their consciousness.</description>
-	<alienRace>
+    <alienRace>
       <generalSettings>
-		<maleGenderProbability>0.5</maleGenderProbability>	
-		<validBeds>
-			<li>BorgBed</li>
-		</validBeds>
-		<immuneToAge>true</immuneToAge>
-		<forcedRaceTraitEntries>
-			<li>
-			<defName>Borg</defName>
-			<chance>100</chance>
-			</li>
-			<li>
-			<defName>Hivemind</defName>
-			<chance>100</chance>
-			</li>
-			<li>
-			<defName>BorgProsthetics</defName>
-			<chance>100</chance>
-			</li>
-		</forcedRaceTraitEntries>
-		  <alienPartGenerator>
-			<aliencrowntypes>
-				<li>Average_Normal</li>
-				<li>Average_Narrow</li>
-			</aliencrowntypes>
-			<alienbodytypes>
-				<li>Male</li>
-				<li>Thin</li>
-			</alienbodytypes>
-			<alienskincolorgen Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>RGBA(0.65,0.62,0.67,1)</only>
-					</li>
-				</options>
-			</alienskincolorgen>
-		  </alienPartGenerator>
-		<chemicalSettings>	
-			<li>
-				<chemical>Luciferium</chemical>
-				<ingestible>false</ingestible>
-			</li>
-			<li>
-				<chemical>SmokeLeaf</chemical>
-				<ingestible>false</ingestible>
-			</li>
-			<li>
-				<chemical>Penoxycyline</chemical>
-				<ingestible>false</ingestible>
-			</li>	
-			<li>
-				<chemical>Flake</chemical>
-				<ingestible>false</ingestible>
-			</li>				
-			<li>
-				<chemical>Go-juice</chemical>
-				<ingestible>false</ingestible>
-			</li>				
-			<li>
-				<chemical>Yayo</chemical>
-				<ingestible>false</ingestible>
-			</li>			
-			<li>
-				<chemical>Yayo</chemical>
-				<ingestible>false</ingestible>
-			</li>		
-			<li>
-				<chemical>Beer</chemical>
-				<ingestible>false</ingestible>
-			</li>		
-			<li>
-				<chemical>Ambrosia</chemical>
-				<ingestible>false</ingestible>
-			</li>								
-		</chemicalSettings>
-	  </generalSettings>
-		<graphicPaths>
-			<li>
-				<head>Borg/Head/</head>
-				<body>Borg/Body/</body>
-			</li>
-		</graphicPaths>
-        <hairSettings>
-            <hasHair>false</hasHair>
-        </hairSettings>
-		
-		<thoughtSettings>
-			<cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
-		</thoughtSettings>
-		<raceRestriction>
-            <apparelList>
-                <li>Apparel_BorgArmor</li>
-            </apparelList>
-            <weaponList>
-                <li>Borg_DroneBlaster</li>
-				<li>BorgNaniteProbe</li>
-				<li>BorgNaniteProbePlayer</li>
-            </weaponList>
-			<buildingList>
-                <li>BorgMachiningStation</li>
-                <li>BorgResearchBench</li>
-                <li>BorgWaystation</li>
-                <li>BorgTile</li>
-                <li>BorgTileB</li>
-				<li>BorgGenerator</li>
-				<li>BorgPowerConduit</li>
-				<li>BorgBattery</li>
-				<li>BorgNutrientDispenser</li>
-				<li>BorgBed</li>
-				<li>BorgMaintenancePanel</li>
-            </buildingList>
-
-			<researchList>
-			<li>
-			<projects>
-			<li>BorgT1</li>
-			<li>BorgT1point5</li>
-			<li>BorgT2</li>
-			<li>BorgT2point5</li>
-			<li>BorgT3</li>
-			<li>BorgT4</li>
-			<li>BorgT5</li>
-			<li>BorgT6</li>
-			<li>BorgT7</li>
-			</projects>
-			</li>
-			</researchList>
-			<traitList>
-                <li>Borg</li>
-				<li>Hivemind</li>
-				<li>BorgProsthetics</li>
-            </traitList>     
-			<onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
-			<foodList>
-				<li>BorgNutrientPaste</li>
-			</foodList>
-            <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
-            <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
-		</raceRestriction>
-	</alienRace>
-		
+        <maleGenderProbability>0.5</maleGenderProbability>
+        <validBeds>
+          <li>BorgBed</li>
+        </validBeds>
+        <immuneToAge>true</immuneToAge>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Borg</defName>
+            <chance>100</chance>
+          </li>
+          <li>
+            <defName>Hivemind</defName>
+            <chance>100</chance>
+          </li>
+          <li>
+            <defName>BorgProsthetics</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+            <li>Average_Narrow</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+            <li>Male</li>
+            <li>Thin</li>
+          </alienbodytypes>
+          <alienskincolorgen Class="ColorGenerator_Options">
+            <options>
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.65,0.62,0.67,1)</only>
+              </li>
+            </options>
+          </alienskincolorgen>
+        </alienPartGenerator>
+        <chemicalSettings>
+          <li>
+            <chemical>Luciferium</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>SmokeLeaf</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Penoxycyline</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Flake</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Go-juice</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Yayo</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Yayo</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Beer</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Ambrosia</chemical>
+            <ingestible>false</ingestible>
+          </li>
+        </chemicalSettings>
+      </generalSettings>
+      <graphicPaths>
+        <li>
+          <head>Borg/Head/</head>
+          <body>Borg/Body/</body>
+        </li>
+      </graphicPaths>
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+      <thoughtSettings>
+        <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
+      </thoughtSettings>
+      <raceRestriction>
+        <apparelList>
+          <li>Apparel_BorgArmor</li>
+        </apparelList>
+        <weaponList>
+          <li>Borg_DroneBlaster</li>
+          <li>BorgNaniteProbe</li>
+          <li>BorgNaniteProbePlayer</li>
+        </weaponList>
+        <buildingList>
+          <li>BorgMachiningStation</li>
+          <li>BorgResearchBench</li>
+          <li>BorgWaystation</li>
+          <li>BorgTile</li>
+          <li>BorgTileB</li>
+          <li>BorgGenerator</li>
+          <li>BorgPowerConduit</li>
+          <li>BorgBattery</li>
+          <li>BorgNutrientDispenser</li>
+          <li>BorgBed</li>
+          <li>BorgMaintenancePanel</li>
+        </buildingList>
+        <researchList>
+          <li>
+            <projects>
+              <li>BorgT1</li>
+              <li>BorgT1point5</li>
+              <li>BorgT2</li>
+              <li>BorgT2point5</li>
+              <li>BorgT3</li>
+              <li>BorgT4</li>
+              <li>BorgT5</li>
+              <li>BorgT6</li>
+              <li>BorgT7</li>
+            </projects>
+          </li>
+        </researchList>
+        <traitList>
+          <li>Borg</li>
+          <li>Hivemind</li>
+          <li>BorgProsthetics</li>
+        </traitList>
+        <onlyEatRaceRestrictedFood>true</onlyEatRaceRestrictedFood>
+        <foodList>
+          <li>BorgNutrientPaste</li>
+        </foodList>
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+      </raceRestriction>
+    </alienRace>
     <statBases>
       <MoveSpeed>4.82</MoveSpeed>
       <Flammability>1.0</Flammability>
@@ -189,14 +182,14 @@
       <li>
         <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>1.85</defaultCooldownTime>
-        <meleeDamageBaseAmount>19</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>9</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttackDamage</verbClass>
         <defaultCooldownTime>1.85</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
       </li>
@@ -210,11 +203,11 @@
       <leatherDef>Leather_Human</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <body>Borg</body>
-	  <meatColor>RGBA(0.65,0.62,0.67,1)</meatColor>
+      <meatColor>RGBA(0.65,0.62,0.67,1)</meatColor>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1.8</baseHealthScale>
       <foodType>Meal</foodType>
-	  <baseHungerRate>0.25</baseHungerRate>
+      <baseHungerRate>0.25</baseHungerRate>
       <gestationPeriodDays>45</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -289,9 +282,7 @@
       <li>Euthanize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-  
-  
-<AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>BackstoryBorgTacticalDrone</defName>
     <title>Tactical drone</title>
     <baseDescription>{PAWN_nameDef} was assimilated and fitted with a number of prosthetics designed to operate the weapon systems and maintenance of attack and defense vessels and equipment.</baseDescription>
@@ -306,7 +297,7 @@
         <defName>Shooting</defName>
         <amount>4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>4</amount>
       </li>
@@ -317,9 +308,8 @@
     </disallowedTraits>
     <workDisables>
     </workDisables>
-</AlienRace.BackstoryDef>
-
-<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>BackstoryBorgMaintenanceDrone</defName>
     <title>Maintenance drone</title>
     <baseDescription>{PAWN_nameDef} assimilated and assigned to function primarily as a maintenance drone - they lack the skills and implants to effectively function on the battlefield, but can be used in a pinch.</baseDescription>
@@ -334,14 +324,14 @@
         <defName>Shooting</defName>
         <amount>-4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Melee</defName>
         <amount>-4</amount>
       </li>
-	  <li>
-	  <defName>Construction</defName>
-	  <amount>4</amount>
-	  </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
     </skillGains>
     <forcedTraits>
     </forcedTraits>
@@ -349,9 +339,8 @@
     </disallowedTraits>
     <workDisables>
     </workDisables>
-</AlienRace.BackstoryDef>
-
-<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>BackstoryBorgMedicalDrone</defName>
     <title>Medical drone</title>
     <baseDescription>{PAWN_nameDef} was assimilated and fitted with a number of prosthetics designed to better operate the medical and maintenance equipment for recharging stations, prosthetic development and implantation.</baseDescription>
@@ -366,11 +355,11 @@
         <defName>Medicine</defName>
         <amount>4</amount>
       </li>
-	  	<li>
+      <li>
         <defName>Melee</defName>
         <amount>-4</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
@@ -381,10 +370,8 @@
     </disallowedTraits>
     <workDisables>
     </workDisables>
-</AlienRace.BackstoryDef>
-
-
-<AlienRace.BackstoryDef>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef>
     <defName>BackstoryBorgCollective</defName>
     <title>Borg collective</title>
     <baseDescription>{PAWN_nameDef} is a productive member of the hivemind Their technological and biological distinctiveness contributes to the efforts of the collective, and this synchronous mind has improved most aspects of borg skills and abilities.</baseDescription>
@@ -399,31 +386,31 @@
         <defName>Medicine</defName>
         <amount>2</amount>
       </li>
-	  	<li>
+      <li>
         <defName>Melee</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Plants</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Cooking</defName>
         <amount>2</amount>
       </li>
-	  <li>
+      <li>
         <defName>Construction</defName>
         <amount>2</amount>
       </li>
-	  	  <li>
+      <li>
         <defName>Crafting</defName>
         <amount>2</amount>
       </li>
-	  	  <li>
+      <li>
         <defName>Mining</defName>
         <amount>2</amount>
       </li>
@@ -434,6 +421,5 @@
     </disallowedTraits>
     <workDisables>
     </workDisables>
-</AlienRace.BackstoryDef>
-
+  </AlienRace.BackstoryDef>
 </Defs>

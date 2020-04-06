@@ -1,28 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<!-- ==================== Bleee ================================ -->
-
-				<SoundDef>
-		<defName>Phaser_blast5</defName>
-		<eventNames />
-						    <context>MapOnly</context> 
-		<maxSimultaneous>1</maxSimultaneous>
-		<subSounds>
-			<li>
-				<grains>
-					<li Class="AudioGrain_Clip">
-						<clipPath>Things/Phaser5</clipPath>
-					</li>
-				</grains>
-				<pitchRange>
-					<min>0.9152174</min>
-					<max>1.042391</max>
-				</pitchRange>
-			</li>
-		</subSounds>
-	</SoundDef>
-	
-	
-	
+  <!-- ==================== Bleee ================================ -->
+  <SoundDef>
+    <defName>Phaser_blast5</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Phaser5</clipPath>
+          </li>
+        </grains>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.042391</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
 </Defs>
