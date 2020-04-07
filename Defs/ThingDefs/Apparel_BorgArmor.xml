@@ -1,15 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef Name="ArmorHelmetMakeableBorg" ParentName="ArmorMakeableBaseBorg" Abstract="True">
-    <thingCategories>
-      <li>Headgear</li>
-    </thingCategories>
-  </ThingDef>
-  <ThingDef Name="HatMakeableBaseBorg" ParentName="ApparelMakeableBaseBorg" Abstract="True">
-    <thingCategories>
-      <li>Headgear</li>
-    </thingCategories>
-  </ThingDef>
   <ThingDef Name="ApparelBaseBorg" Abstract="True">
     <thingClass>Apparel</thingClass>
     <category>Item</category>
@@ -38,18 +28,6 @@
         <compClass>CompQuality</compClass>
       </li>
     </comps>
-  </ThingDef>
-  <ThingDef Name="ApparelMakeableBaseBorg" ParentName="ApparelBaseBorg" Abstract="True">
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Tailor</effectWorking>
-      <soundWorking>Recipe_Tailor</soundWorking>
-      <recipeUsers>
-        <li>BorgMachiningStation</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-    </recipeMaker>
   </ThingDef>
   <ThingDef Name="ArmorMakeableBaseBorg" ParentName="ApparelBaseBorg" Abstract="True">
     <recipeMaker>
@@ -86,6 +64,7 @@
       <Insulation_Cold>20</Insulation_Cold>
       <Insulation_Heat>40</Insulation_Heat>
       <Mass>5.3</Mass>
+      <EquipDelay>5</EquipDelay>
     </statBases>
     <costList>
       <Steel>180</Steel>
@@ -101,6 +80,7 @@
     <apparel>
       <layers>
         <li>OnSkin</li>
+		<li>Shell</li>
       </layers>
       <bodyPartGroups>
         <li>Torso</li>
@@ -111,6 +91,7 @@
       <wornGraphicPath>Things/Borg/Uniforms/BorgDrone</wornGraphicPath>
       <tags>
         <li>BorgArmor</li>
+		<li>EVA</li>
       </tags>
     </apparel>
   </ThingDef>
