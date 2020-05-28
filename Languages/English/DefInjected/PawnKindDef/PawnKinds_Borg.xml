@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BorgDrone.label>borg tactical drone</BorgDrone.label>
+  <BorgDrone.labelPlural>borg tactical drones</BorgDrone.labelPlural>
+  <BorgDrone.labelMale>male borg tactical drone</BorgDrone.labelMale>
+  <BorgDrone.labelMalePlural>male borg tactical drones</BorgDrone.labelMalePlural>
+  <BorgDrone.labelFemale>female borg tactical drone</BorgDrone.labelFemale>
+  <BorgDrone.labelFemalePlural>female borg tactical drones</BorgDrone.labelFemalePlural>
+
+  <BorgDrone2.label>borg tactical assimilation drone</BorgDrone2.label>
+  <BorgDrone2.labelPlural>borg tactical assimilation drones</BorgDrone2.labelPlural>
+  <BorgDrone2.labelMale>male borg tactical assimilation drone</BorgDrone2.labelMale>
+  <BorgDrone2.labelMalePlural>male borg tactical assimilation drones</BorgDrone2.labelMalePlural>
+  <BorgDrone2.labelFemale>female borg tactical assimilation drone</BorgDrone2.labelFemale>
+  <BorgDrone2.labelFemalePlural>female borg tactical assimilation drones</BorgDrone2.labelFemalePlural>
+
+  <BorgDrone3.label>borg drone</BorgDrone3.label>
+  <BorgDrone3.labelPlural>borg drones</BorgDrone3.labelPlural>
+  <BorgDrone3.labelMale>male borg drone</BorgDrone3.labelMale>
+  <BorgDrone3.labelMalePlural>male borg drones</BorgDrone3.labelMalePlural>
+  <BorgDrone3.labelFemale>female borg drone</BorgDrone3.labelFemale>
+  <BorgDrone3.labelFemalePlural>female borg drones</BorgDrone3.labelFemalePlural>
+
+  <BorgCommand.label>borg secondary adjunct</BorgCommand.label>
+  <BorgCommand.labelPlural>borg secondary adjuncts</BorgCommand.labelPlural>
+  <BorgCommand.labelMale>male borg secondary adjunct</BorgCommand.labelMale>
+  <BorgCommand.labelMalePlural>male borg secondary adjuncts</BorgCommand.labelMalePlural>
+  <BorgCommand.labelFemale>female borg secondary adjunct</BorgCommand.labelFemale>
+  <BorgCommand.labelFemalePlural>female borg secondary adjuncts</BorgCommand.labelFemalePlural>
+
+  <PlayerBorgDrone.label>borg drone</PlayerBorgDrone.label>
+  <PlayerBorgDrone.labelPlural>borg drones</PlayerBorgDrone.labelPlural>
+  <PlayerBorgDrone.labelMale>male borg drone</PlayerBorgDrone.labelMale>
+  <PlayerBorgDrone.labelMalePlural>male borg drones</PlayerBorgDrone.labelMalePlural>
+  <PlayerBorgDrone.labelFemale>female borg drone</PlayerBorgDrone.labelFemale>
+  <PlayerBorgDrone.labelFemalePlural>female borg drones</PlayerBorgDrone.labelFemalePlural>
+
+
+</LanguageData>

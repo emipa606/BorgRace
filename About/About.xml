@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Borg Race (Continued)</name>
-  	<packageId>Mlie.BorgRace</packageId>
-	<author>orannj</author>
-	<url>https://github.com/emipa606/BorgRace</url>
-	<supportedVersions>
-		<li>1.1</li>
-	</supportedVersions>	
-	<modDependencies>
-		<li>
-			<packageId>erdelf.HumanoidAlienRaces</packageId>
-			<displayName>Humanoid Alien Races</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
-			<downloadUrl>https://github.com/erdelf/AlienRaces/wiki</downloadUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>erdelf.HumanoidAlienRaces</li>
-	</loadAfter>
-	<description>Update of orannjs mod for RimWorld 1.1
+  <name>Borg Race (Continued)</name>
+  <packageId>Mlie.BorgRace</packageId>
+  <author>orannj</author>
+  <url>https://github.com/emipa606/BorgRace</url>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/wiki</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>Update of orannjs mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=946260992
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]

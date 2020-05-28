@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BorgMachiningStation.label>Borg machining station</BorgMachiningStation.label>
+  <BorgMachiningStation.description>A borg adapted station designed to develop some of the more advanced technologies of this collective. Contains all of the necessary data and manufacturing tools to create.</BorgMachiningStation.description>
+
+  <BorgResearchBench.label>adapted borg research bench</BorgResearchBench.label>
+  <BorgResearchBench.description>A high-tech bench with computers and electronic measurement equipment adapted by nanite infusions and incorporating several pieces of borg technology throughout. Research is sped up by the high-tech tools. Requires power.</BorgResearchBench.description>
+
+  <BorgWaystation.label>borg power coupling</BorgWaystation.label>
+  <BorgWaystation.description>A borg device used to maintain power flow, providing a small degree of radiated heat and light to an area.</BorgWaystation.description>
+
+  <BorgPowerConduit.label>adapted power conduit</BorgPowerConduit.label>
+  <BorgPowerConduit.description>A set of electrical cables for moving power around. Can be placed under walls and other buildings. Adapted for use by the Borg. Sturdier than standard power cables.</BorgPowerConduit.description>
+  <BorgPowerConduit_Blueprint.label>adapted power conduit (blueprint)</BorgPowerConduit_Blueprint.label>
+  <BorgPowerConduit_Frame.label>adapted power conduit (building)</BorgPowerConduit_Frame.label>
+  <BorgPowerConduit_Frame.description>A set of electrical cables for moving power around. Can be placed under walls and other buildings. Adapted for use by the Borg. Sturdier than standard power cables.</BorgPowerConduit_Frame.description>
+
+  <BorgBattery.label>adapted battery</BorgBattery.label>
+  <BorgBattery.description>Stores electricity when there is excess power and yields it when there is not. Warning - charged batteries tend to explode when exposed to rain or fire.</BorgBattery.description>
+
+  <BorgGenerator.label>borg adapted generator</BorgGenerator.label>
+  <BorgGenerator.description>Borg adapted technology has resulted in a power station capable of producing a moderate level of power for an extended period. Not as powerful as most generators, the borg seek efficiency. The generator is fueled by using a chemical reaction with silver.</BorgGenerator.description>
+
+  <BorgNutrientDispenser.label>borg adapted nutrient synthesizer</BorgNutrientDispenser.label>
+  <BorgNutrientDispenser.description>Synthesizes nutrient paste from organic feedstocks. Adapted by the borg to produce specific nutrients for the organic aspects of their bodies. Accepts raw food, but not rough plant matter like hay.</BorgNutrientDispenser.description>
+
+  <BorgBed.label>borg recharging station</BorgBed.label>
+  <BorgBed.description>A specially designed station with multiple plugs and devices for the borg to recharge their cybernetic implants. Nanites injected through the station repair and maintain the borg body while in standby mode.</BorgBed.description>
+
+  <BorgMaintenancePanel.label>borg maintenance panel</BorgMaintenancePanel.label>
+  <BorgMaintenancePanel.description>A maintenance panel that keeps the systems running.</BorgMaintenancePanel.description>
+
+
+</LanguageData>

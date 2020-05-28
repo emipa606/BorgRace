@@ -80,7 +80,7 @@
     <apparel>
       <layers>
         <li>OnSkin</li>
-		<li>Shell</li>
+        <li>Shell</li>
       </layers>
       <bodyPartGroups>
         <li>Torso</li>
@@ -91,7 +91,7 @@
       <wornGraphicPath>Things/Borg/Uniforms/BorgDrone</wornGraphicPath>
       <tags>
         <li>BorgArmor</li>
-		<li>EVA</li>
+        <li>EVA</li>
       </tags>
     </apparel>
   </ThingDef>

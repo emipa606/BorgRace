@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BorgNaniteProbe.label>Borg nanite probe</BorgNaniteProbe.label>
+  <BorgNaniteProbe.description>A prosthesis extension designed especially for certain drones to be able to deliver the assimilation nanites into a target bloodstream. Once infected, the target will either succumb to his wounds (and the infection), or assimilate. Nanites infect blood vessels, eventually erupting from the skin in cybernetic tumours throughout the victims body. At this point, they are part of the collective.</BorgNaniteProbe.description>
+  <BorgNaniteProbe.tools.0.label>injector</BorgNaniteProbe.tools.0.label>
+
+  <BorgNaniteProbePlayer.label>adapted borg nanite probe</BorgNaniteProbePlayer.label>
+  <BorgNaniteProbePlayer.description>A prosthesis extension designed especially for certain drones to be able to deliver the assimilation nanites into a target bloodstream. Once infected, the target will either succumb to his wounds (and the infection), or assimilate. Nanites infect blood vessels, eventually erupting from the skin in cybernetic tumours throughout the victims body. At this point, they are part of the collective.</BorgNaniteProbePlayer.description>
+  <BorgNaniteProbePlayer.tools.0.label>injector</BorgNaniteProbePlayer.tools.0.label>
+
+  <Bullet_PulsePlasma.label>Phased pulse</Bullet_PulsePlasma.label>
+
+  <Borg_DroneBlaster.label>Borg plasma cannon</Borg_DroneBlaster.label>
+  <Borg_DroneBlaster.description>A borg weapon designed to inflict a maximum amount of damage. These plasma cannons are often used in the case of targets deemed unsuitable or unwanted for assimilation.</Borg_DroneBlaster.description>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsBorgMachiningStation.label>adapting...</DoBillsBorgMachiningStation.label>
+  <DoBillsBorgMachiningStation.verb>craft</DoBillsBorgMachiningStation.verb>
+  <DoBillsBorgMachiningStation.gerund>adapting..</DoBillsBorgMachiningStation.gerund>
+
+  <DoBillsBorgNutrientPasteDispenser.label>synthesizing...</DoBillsBorgNutrientPasteDispenser.label>
+  <DoBillsBorgNutrientPasteDispenser.verb>cook</DoBillsBorgNutrientPasteDispenser.verb>
+  <DoBillsBorgNutrientPasteDispenser.gerund>synthesizing..</DoBillsBorgNutrientPasteDispenser.gerund>
+
+
+</LanguageData>

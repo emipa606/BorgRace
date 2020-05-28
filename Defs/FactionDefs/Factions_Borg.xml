@@ -52,6 +52,15 @@
           <BorgCommand>1</BorgCommand>
         </options>
       </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <BorgDrone>100</BorgDrone>
+          <BorgDrone2>20</BorgDrone2>
+          <BorgDrone2>50</BorgDrone2>
+        </options>
+      </li>
     </pawnGroupMakers>
     <allowedArrivalTemperatureRange>
       <min>-100</min>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NamerFactionBorg.rulePack.rulesStrings.0>r_name->[BorgFactionNames]</NamerFactionBorg.rulePack.rulesStrings.0>
+  <NamerPersonBorg.rulePack.rulesStrings.0>r_name->[Letter] '[BorgNames]-of-[BorgNames]' [Letter]</NamerPersonBorg.rulePack.rulesStrings.0>
+
+  <NamerSettlementBorg.rulePack.rulesStrings.0>name->Borg Station Alpha</NamerSettlementBorg.rulePack.rulesStrings.0>
+  <NamerSettlementBorg.rulePack.rulesStrings.1>name->Borg Station Beta</NamerSettlementBorg.rulePack.rulesStrings.1>
+  <NamerSettlementBorg.rulePack.rulesStrings.2>name->Borg Station Charlie</NamerSettlementBorg.rulePack.rulesStrings.2>
+  <NamerSettlementBorg.rulePack.rulesStrings.3>name->Borg Station Delta</NamerSettlementBorg.rulePack.rulesStrings.3>
+  <NamerSettlementBorg.rulePack.rulesStrings.4>name->Borg Station Epsilon</NamerSettlementBorg.rulePack.rulesStrings.4>
+  <NamerSettlementBorg.rulePack.rulesStrings.5>name->Borg Station Gamma</NamerSettlementBorg.rulePack.rulesStrings.5>
+  <NamerSettlementBorg.rulePack.rulesStrings.6>name->Borg Station Eta</NamerSettlementBorg.rulePack.rulesStrings.6>
+  <NamerSettlementBorg.rulePack.rulesStrings.7>name->Borg Station Theta</NamerSettlementBorg.rulePack.rulesStrings.7>
+  <NamerSettlementBorg.rulePack.rulesStrings.8>name->Borg Station Iota</NamerSettlementBorg.rulePack.rulesStrings.8>
+  <NamerSettlementBorg.rulePack.rulesStrings.9>name->Borg Station Kappa</NamerSettlementBorg.rulePack.rulesStrings.9>
+  <NamerSettlementBorg.rulePack.rulesStrings.10>name->Borg Station Lambda</NamerSettlementBorg.rulePack.rulesStrings.10>
+  <NamerSettlementBorg.rulePack.rulesStrings.11>name->Borg Station Mu</NamerSettlementBorg.rulePack.rulesStrings.11>
+  <NamerSettlementBorg.rulePack.rulesStrings.12>name->Borg Station Rho</NamerSettlementBorg.rulePack.rulesStrings.12>
+  <NamerSettlementBorg.rulePack.rulesStrings.13>name->Borg Station Sigma</NamerSettlementBorg.rulePack.rulesStrings.13>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BorgNaniteProbe.label>assimilation probe</BorgNaniteProbe.label>
+  <BorgNaniteProbe.deathMessage>{0} has been injected with borg nanites.</BorgNaniteProbe.deathMessage>
+
+  <BorgNaniteProbePlayer.label>assimilation probe</BorgNaniteProbePlayer.label>
+  <BorgNaniteProbePlayer.deathMessage>{0} has been injected with borg nanites.</BorgNaniteProbePlayer.deathMessage>
+
+
+</LanguageData>

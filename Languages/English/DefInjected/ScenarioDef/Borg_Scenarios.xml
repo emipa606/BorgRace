@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BorgDronesStartup.label>Borg Drones</BorgDronesStartup.label>
+  <BorgDronesStartup.description>Three drones. Find life. Assimilate.</BorgDronesStartup.description>
+  <BorgDronesStartup.scenario.name>Borg Drones</BorgDronesStartup.scenario.name>
+  <BorgDronesStartup.scenario.summary>You start with three drones.</BorgDronesStartup.scenario.summary>
+  <BorgDronesStartup.scenario.description>Three drones. Find life. Assimilate.</BorgDronesStartup.scenario.description>
+
+
+</LanguageData>
