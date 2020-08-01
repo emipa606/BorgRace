@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>BorgMachiningStation</defName>
+    <label>Borg machining station</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A borg adapted station designed to develop some of the more advanced technologies of this collective. Contains all of the necessary data and manufacturing tools to create.</description>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>7000</WorkToBuild>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>1</Cleanliness>
+      <WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(73,123,138,0)</glowColor>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>BorgT1point5</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc7</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="BenchBase">
+    <defName>BorgResearchBench</defName>
+    <label>adapted borg research bench</label>
+    <description>A high-tech bench with computers and electronic measurement equipment adapted by nanite infusions and incorporating several pieces of borg technology throughout. Research is sped up by the high-tech tools. Requires power.</description>
+    <thingClass>Building_ResearchBench</thingClass>
+    <size>(5,2)</size>
+    <thingCategories Inherit="false" />
+    <minifiedDef />
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>13</ComponentIndustrial>
+    </costList>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgResearch</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(7,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <ResearchSpeedFactor>1.2</ResearchSpeedFactor>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MultiAnalyzer</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef Abstract="True" Name="StandingLampBaseBorg" ParentName="LampBase">
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgWaystation</texPath>
+    </graphicData>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="StandingLampBaseBorg">
+    <defName>BorgWaystation</defName>
+    <label>borg power coupling</label>
+    <description>A borg device used to maintain power flow, providing a small degree of radiated heat and light to an area.</description>
+    <designationHotKey>Misc11</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(57,236,95,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>11</heatPerSecond>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Electricity</li>
+      <li>BorgT1</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <TerrainDef ParentName="FloorBase">
+    <defName>BorgTile</defName>
+    <label>adapted tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Borg tiling design.</description>
+    <texturePath>Things/Borg/Items/BorgTile</texturePath>
+    <color>(0.369, 0.369, 0.369)</color>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+      <Beauty>1</Beauty>
+    </statBases>
+    <costList>
+      <Steel>4</Steel>
+    </costList>
+    <researchPrerequisites>
+      <li>Electricity</li>
+      <li>BorgT1</li>
+    </researchPrerequisites>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc1</designationHotKey>
+  </TerrainDef>
+  <TerrainDef ParentName="FloorBase">
+    <defName>BorgTileB</defName>
+    <label>adapted tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Borg tiling design.</description>
+    <texturePath>Things/Borg/Items/BorgTileB</texturePath>
+    <color>(0.369, 0.369, 0.369)</color>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+      <Beauty>1</Beauty>
+    </statBases>
+    <costList>
+      <Steel>4</Steel>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Electricity</li>
+      <li>BorgT1</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc1</designationHotKey>
+  </TerrainDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BorgPowerConduit</defName>
+    <label>adapted power conduit</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgPowerConduit_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Transmitter</linkType>
+      <linkFlags>
+        <li>PowerConduit</li>
+      </linkFlags>
+      <damageData>
+        <rect>(0,0.35,1,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Borg/Items/BorgPowerConduit_MenuIcon</uiIconPath>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>35</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <description>A set of electrical cables for moving power around. Can be placed under walls and other buildings. Adapted for use by the Borg. Sturdier than standard power cables.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <costList>
+      <Steel>1</Steel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_Conduit</li>
+    </placeWorkers>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc1</designationHotKey>
+    <researchPrerequisites>
+      <li>Electricity</li>
+      <li>BorgT1</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BorgBattery</defName>
+    <label>adapted battery</label>
+    <thingClass>Building_Battery</thingClass>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgBattery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>-18</Beauty>
+    </statBases>
+    <description>Stores electricity when there is excess power and yields it when there is not. Warning - charged batteries tend to explode when exposed to rain or fire.</description>
+    <size>(1,2)</size>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1300</storedEnergyMax>
+        <efficiency>0.7</efficiency>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc4</designationHotKey>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>Batteries</li>
+      <li>BorgT3</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BorgGenerator</defName>
+    <label>borg adapted generator</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgPowerCoupling</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Borg adapted technology has resulted in a power station capable of producing a moderate level of power for an extended period. Not as powerful as most generators, the borg seek efficiency. The generator is fueled by using a chemical reaction with silver.</description>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Silver>30</Silver>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelCapacity>200.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(57,236,95,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>4</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.3</staticSunShadowHeight>
+    <designationHotKey>Misc3</designationHotKey>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Electricity</li>
+      <li>BorgT3</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BenchBase">
+    <defName>BorgNutrientDispenser</defName>
+    <label>borg adapted nutrient synthesizer</label>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <description>Synthesizes nutrient paste from organic feedstocks. Adapted by the borg to produce specific nutrients for the organic aspects of their bodies. Accepts raw food, but not rough plant matter like hay.</description>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgNutrientDispenser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0.02,0.25,2.96,2.85)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+      </damageData>
+    </graphicData>
+    <constructEffect>ConstructMetal</constructEffect>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,4)</size>
+    <designationCategory>Production</designationCategory>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,3)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <building>
+      <isMealSource>true</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+    </building>
+    <designationHotKey>Misc8</designationHotKey>
+  </ThingDef>
+  <ThingDef ParentName="FurnitureBase">
+    <defName>BorgBed</defName>
+    <label>borg recharging station</label>
+    <description>A specially designed station with multiple plugs and devices for the borg to recharge their cybernetic implants. Nanites injected through the station repair and maintain the borg body while in standby mode.</description>
+    <thingClass>Building_Bed</thingClass>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>50</Mass>
+      <BedRestEffectiveness>1.4</BedRestEffectiveness>
+      <Comfort>1</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <researchPrerequisites>
+      <li>BorgT1</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>VitalsMonitor</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_AssignableToPawn">
+        <drawAssignmentOverlay>false</drawAssignmentOverlay>
+        <compClass>CompAssignableToPawn_Bed</compClass>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designationHotKey>Misc2</designationHotKey>
+    <passability>PassThroughOnly</passability>
+    <drawGUIOverlay>True</drawGUIOverlay>
+    <canOverlapZones>true</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="FurnitureBase">
+    <defName>BorgMaintenancePanel</defName>
+    <label>borg maintenance panel</label>
+    <description>A maintenance panel that keeps the systems running.</description>
+    <graphicData>
+      <texPath>Things/Borg/Items/BorgMaintenancePanel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.09375,0.296875,0.796875,0.703125)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.40</fillPercent>
+    <building>
+      <joyKind>Gaming_Cerebral</joyKind>
+    </building>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>4</Beauty>
+      <JoyGainFactor>1</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <pathCost>70</pathCost>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Joy</designationCategory>
+    <designationHotKey>Misc2</designationHotKey>
+  </ThingDef>
+</Defs>
