@@ -84,46 +84,46 @@
           </colorChannels>
         </alienPartGenerator>
         <chemicalSettings>
-          <!-- <li> -->
-          <!-- <chemical>Beer</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>Ambrosia</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>GoJuice</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>Luciferium</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>Penoxycyline</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>Flake</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>PsychiteTea</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>Yayo</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>SmokeleafJoint</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
-          <!-- <li> -->
-          <!-- <chemical>WakeUp</chemical> -->
-          <!-- <ingestible>false</ingestible> -->
-          <!-- </li> -->
+          <li>
+            <chemical>Beer</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Ambrosia</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>GoJuice</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Luciferium</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Penoxycyline</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Flake</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>PsychiteTea</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>Yayo</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>SmokeleafJoint</chemical>
+            <ingestible>false</ingestible>
+          </li>
+          <li>
+            <chemical>WakeUp</chemical>
+            <ingestible>false</ingestible>
+          </li>
         </chemicalSettings>
       </generalSettings>
       <graphicPaths>
