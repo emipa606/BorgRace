@@ -1,35 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <BorgInfection.label>borg nanite probe infection</BorgInfection.label>
-  <BorgInfection.description>borg nanite probe infection</BorgInfection.description>
-  <BorgInfection.stages.0.label>initial-hidden</BorgInfection.stages.0.label>
-  <BorgInfection.stages.1.label>initial</BorgInfection.stages.1.label>
-  <BorgInfection.stages.2.label>minor</BorgInfection.stages.2.label>
-  <BorgInfection.stages.3.label>moderate</BorgInfection.stages.3.label>
-  <BorgInfection.stages.4.label>serious</BorgInfection.stages.4.label>
-  <BorgInfection.stages.5.label>extreme</BorgInfection.stages.5.label>
-  <BorgInfection.injuryProps.destroyedLabel>Cut off</BorgInfection.injuryProps.destroyedLabel>
-  <BorgInfection.injuryProps.destroyedOutLabel>Cut out</BorgInfection.injuryProps.destroyedOutLabel>
-
-  <BorgInfectionPlayer.label>borg nanite probe infection</BorgInfectionPlayer.label>
-  <BorgInfectionPlayer.description>borg nanite probe infection</BorgInfectionPlayer.description>
-  <BorgInfectionPlayer.stages.0.label>initial-hidden</BorgInfectionPlayer.stages.0.label>
-  <BorgInfectionPlayer.stages.1.label>initial</BorgInfectionPlayer.stages.1.label>
-  <BorgInfectionPlayer.stages.2.label>minor</BorgInfectionPlayer.stages.2.label>
-  <BorgInfectionPlayer.stages.3.label>moderate</BorgInfectionPlayer.stages.3.label>
-  <BorgInfectionPlayer.stages.4.label>serious</BorgInfectionPlayer.stages.4.label>
-  <BorgInfectionPlayer.stages.5.label>extreme</BorgInfectionPlayer.stages.5.label>
-  <BorgInfectionPlayer.injuryProps.destroyedLabel>Cut off</BorgInfectionPlayer.injuryProps.destroyedLabel>
-  <BorgInfectionPlayer.injuryProps.destroyedOutLabel>Cut out</BorgInfectionPlayer.injuryProps.destroyedOutLabel>
-
-  <BorgInject.label>inject</BorgInject.label>
-  <BorgInject.description>inject</BorgInject.description>
-  <BorgInject.comps.0.labelTendedWell>bandaged</BorgInject.comps.0.labelTendedWell>
-  <BorgInject.comps.0.labelTendedWellInner>sutured</BorgInject.comps.0.labelTendedWellInner>
-  <BorgInject.comps.0.labelSolidTendedWell>antibodies</BorgInject.comps.0.labelSolidTendedWell>
-  <BorgInject.injuryProps.destroyedLabel>nanite scars</BorgInject.injuryProps.destroyedLabel>
-  <BorgInject.injuryProps.destroyedOutLabel>nanites removed</BorgInject.injuryProps.destroyedOutLabel>
-
+  <!--<BorgInfection.label>borg nanite probe infection</BorgInfection.label>-->
+  <!--<BorgInfection.description>borg nanite probe infection</BorgInfection.description>-->
+  <!--<BorgInfection.stages.0.label>initial-hidden</BorgInfection.stages.0.label>-->
+  <!--<BorgInfection.stages.1.label>initial</BorgInfection.stages.1.label>-->
+  <!--<BorgInfection.stages.2.label>minor</BorgInfection.stages.2.label>-->
+  <!--<BorgInfection.stages.3.label>moderate</BorgInfection.stages.3.label>-->
+  <!--<BorgInfection.stages.4.label>serious</BorgInfection.stages.4.label>-->
+  <!--<BorgInfection.stages.5.label>extreme</BorgInfection.stages.5.label>-->
+  <!--<BorgInfection.injuryProps.destroyedLabel>Cut off</BorgInfection.injuryProps.destroyedLabel>-->
+  <!--<BorgInfection.injuryProps.destroyedOutLabel>Cut out</BorgInfection.injuryProps.destroyedOutLabel>-->
+  <!--<BorgInfectionPlayer.label>borg nanite probe infection</BorgInfectionPlayer.label>-->
+  <!--<BorgInfectionPlayer.description>borg nanite probe infection</BorgInfectionPlayer.description>-->
+  <!--<BorgInfectionPlayer.stages.0.label>initial-hidden</BorgInfectionPlayer.stages.0.label>-->
+  <!--<BorgInfectionPlayer.stages.1.label>initial</BorgInfectionPlayer.stages.1.label>-->
+  <!--<BorgInfectionPlayer.stages.2.label>minor</BorgInfectionPlayer.stages.2.label>-->
+  <!--<BorgInfectionPlayer.stages.3.label>moderate</BorgInfectionPlayer.stages.3.label>-->
+  <!--<BorgInfectionPlayer.stages.4.label>serious</BorgInfectionPlayer.stages.4.label>-->
+  <!--<BorgInfectionPlayer.stages.5.label>extreme</BorgInfectionPlayer.stages.5.label>-->
+  <!--<BorgInfectionPlayer.injuryProps.destroyedLabel>Cut off</BorgInfectionPlayer.injuryProps.destroyedLabel>-->
+  <!--<BorgInfectionPlayer.injuryProps.destroyedOutLabel>Cut out</BorgInfectionPlayer.injuryProps.destroyedOutLabel>-->
+  <!--<BorgInject.label>inject</BorgInject.label>-->
+  <!--<BorgInject.description>inject</BorgInject.description>-->
+  <!--<BorgInject.comps.0.labelTendedWell>bandaged</BorgInject.comps.0.labelTendedWell>-->
+  <!--<BorgInject.comps.0.labelTendedWellInner>sutured</BorgInject.comps.0.labelTendedWellInner>-->
+  <!--<BorgInject.comps.0.labelSolidTendedWell>antibodies</BorgInject.comps.0.labelSolidTendedWell>-->
+  <!--<BorgInject.injuryProps.destroyedLabel>nanite scars</BorgInject.injuryProps.destroyedLabel>-->
+  <!--<BorgInject.injuryProps.destroyedOutLabel>nanites removed</BorgInject.injuryProps.destroyedOutLabel>-->
 
 </LanguageData>

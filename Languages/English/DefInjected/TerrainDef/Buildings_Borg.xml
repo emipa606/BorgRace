@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <BorgTile.label>adapted tile</BorgTile.label>
-  <BorgTile.description>Borg tiling design.</BorgTile.description>
-
-  <BorgTileB.label>adapted tile</BorgTileB.label>
-  <BorgTileB.description>Borg tiling design.</BorgTileB.description>
-
+  <!--<BorgTile.label>adapted tile</BorgTile.label>-->
+  <!--<BorgTile.description>Borg tiling design.</BorgTile.description>-->
+  <!--<BorgTileB.label>adapted tile</BorgTileB.label>-->
+  <!--<BorgTileB.description>Borg tiling design.</BorgTileB.description>-->
 
 </LanguageData>

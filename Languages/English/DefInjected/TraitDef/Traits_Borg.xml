@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Borg.degreeDatas.0.label>borg</Borg.degreeDatas.0.label>
-  <Borg.degreeDatas.0.description>{PAWN_nameDef} is a member of the borg collective. {PAWN_pronoun} will seek to assimilate all forms of life. Resistance is futile.</Borg.degreeDatas.0.description>
-
-  <Hivemind.degreeDatas.0.label>borg hivemind</Hivemind.degreeDatas.0.label>
-  <Hivemind.degreeDatas.0.description>{PAWN_nameDef} is a member of the collective borg hivemind. {PAWN_pronoun} has access to the near limitless intellectual capacities of the borg. As such, {PAWN_pronoun} is extremely resistant to any affect on mood - borg are, essentially emotionless.</Hivemind.degreeDatas.0.description>
-
-  <BorgProsthetics.degreeDatas.0.label>nanite proshetics</BorgProsthetics.degreeDatas.0.label>
-  <BorgProsthetics.degreeDatas.0.description>{PAWN_nameDef}, on initial assimilation, was fitted with a number of basic prosthetic and cybernetic improvements to their organic body. This has resulted in a more efficient work rate.</BorgProsthetics.degreeDatas.0.description>
-
+  <!--<Borg.degreeDatas.0.label>borg</Borg.degreeDatas.0.label>-->
+  <!--<Borg.degreeDatas.0.description>{PAWN_nameDef} is a member of the borg collective. {PAWN_pronoun} will seek to assimilate all forms of life. Resistance is futile.</Borg.degreeDatas.0.description>-->
+  <!--<Hivemind.degreeDatas.0.label>borg hivemind</Hivemind.degreeDatas.0.label>-->
+  <!--<Hivemind.degreeDatas.0.description>{PAWN_nameDef} is a member of the collective borg hivemind. {PAWN_pronoun} has access to the near limitless intellectual capacities of the borg. As such, {PAWN_pronoun} is extremely resistant to any affect on mood - borg are, essentially emotionless.</Hivemind.degreeDatas.0.description>-->
+  <!--<BorgProsthetics.degreeDatas.0.label>nanite proshetics</BorgProsthetics.degreeDatas.0.label>-->
+  <!--<BorgProsthetics.degreeDatas.0.description>{PAWN_nameDef}, on initial assimilation, was fitted with a number of basic prosthetic and cybernetic improvements to their organic body. This has resulted in a more efficient work rate.</BorgProsthetics.degreeDatas.0.description>-->
 
 </LanguageData>

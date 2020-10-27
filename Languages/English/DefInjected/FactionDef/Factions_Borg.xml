@@ -1,14 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <BorgCollective.label>Borg station</BorgCollective.label>
-  <BorgCollective.description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</BorgCollective.description>
-  <BorgCollective.pawnsPlural>Borg</BorgCollective.pawnsPlural>
-  <BorgCollective.leaderTitle>Secondary Adjunct</BorgCollective.leaderTitle>
-
-  <BorgCollectivePlayer.label>Borg Station Alpha</BorgCollectivePlayer.label>
-  <BorgCollectivePlayer.description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</BorgCollectivePlayer.description>
-  <BorgCollectivePlayer.pawnsPlural>borg</BorgCollectivePlayer.pawnsPlural>
-
+  <!--<BorgCollective.label>Borg station</BorgCollective.label>-->
+  <!--<BorgCollective.description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</BorgCollective.description>-->
+  <!--<BorgCollective.pawnsPlural>Borg</BorgCollective.pawnsPlural>-->
+  <!--<BorgCollective.leaderTitle>Secondary Adjunct</BorgCollective.leaderTitle>-->
+  <!--<BorgCollectivePlayer.label>Borg Station Alpha</BorgCollectivePlayer.label>-->
+  <!--<BorgCollectivePlayer.description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</BorgCollectivePlayer.description>-->
+  <!--<BorgCollectivePlayer.pawnsPlural>borg</BorgCollectivePlayer.pawnsPlural>-->
 
 </LanguageData>

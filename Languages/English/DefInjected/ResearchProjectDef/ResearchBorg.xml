@@ -1,32 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <BorgT1.label>Nanite Research</BorgT1.label>
-  <BorgT1.description>Development of basic nanite technologies - used in standard borg daily routines. Specifically, nanites researched in this technology provide access to assimilated conduit cables, tougher and stronger than most other humanoid designs.</BorgT1.description>
-
-  <BorgT1point5.label>Adapted manufacturing</BorgT1point5.label>
-  <BorgT1point5.description>Nanites have been adapted to function with existing advanced humanoid manufacturing technologies to produce the borg machining station. This station is necessary for the continued development and production of Borg devices.</BorgT1point5.description>
-
-  <BorgT2.label>Regeneration Nanites</BorgT2.label>
-  <BorgT2.description>Medical technology adapted to the collective by the introduction of advanced nanites. As the borg circulatory system is built from blood cells infused with molecular nanites, this technology provides access to simple borg prosthetics designed to increase cellular resiliency.</BorgT2.description>
-
-  <BorgT2point5.label>reinforced nanite body glove and armor</BorgT2point5.label>
-  <BorgT2point5.description>With the advent of advanced machining technology, nanites have been adapted to enhance the standard drone body by utilizing available material to construct a comprehensive body glove that maintains the optimal temperature of the body, while thick ablative armor prosthetics have been developed to protect against kinetic and energy weaponry.</BorgT2point5.description>
-
-  <BorgT3.label>Assimilated power technologies</BorgT3.label>
-  <BorgT3.description>The power requirements for maintaining the systems and devices used onboard Borg vessels and outposts is massive - this research provides avenues for the assimilation and adaptation of other humanoid power devices. The infusion of specifically developed nanites results in a massively increased power output. The power station developed from this technology is powered by chemical fuels.</BorgT3.description>
-
-  <BorgT4.label>Cellular nanite prosthetics technology</BorgT4.label>
-  <BorgT4.description>The cellular nanites initially injected into a borg host are simple - at least for the borg. Research and expansion of these nanites results in the development of several prosthetics that can be adapted onto any borg frame to increase the output of a drone in any number of specific fields.</BorgT4.description>
-
-  <BorgT5.label>Advanced nanite prosthetic technologies</BorgT5.label>
-  <BorgT5.description>Progress in the cellular nanite field. These advanced cellular nanites have the potential to develop into even sturdier prosthetics to be adapted onto the drone frame.</BorgT5.description>
-
-  <BorgT6.label>Adapted assimilation technologies</BorgT6.label>
-  <BorgT6.description>With progress being made in other fields, one area that requires a more delicate focus is that of assimilation. Standard collective technology is barebones, designed to incorporate any humanoid into the collective. As we are disconnected from the main hive, careful steps must be taken as to not destroy the target. This technology results in the adapted nanite probe, an extremely expensive to create assimilation probe.</BorgT6.description>
-
-  <BorgT7.label>Advanced plasma weaponry</BorgT7.label>
-  <BorgT7.description>Plasma technology has been a staple of tactically deployed drones both on the ground and in space as ship-based weaponry. With significant advances in plasma and nanite technologies, new weapons have been developed to provide heavy support to any deployed unit.</BorgT7.description>
-
+  <!--<BorgT1.label>Nanite Research</BorgT1.label>-->
+  <!--<BorgT1.description>Development of basic nanite technologies - used in standard borg daily routines. Specifically, nanites researched in this technology provide access to assimilated conduit cables, tougher and stronger than most other humanoid designs.</BorgT1.description>-->
+  <!--<BorgT1point5.label>Adapted manufacturing</BorgT1point5.label>-->
+  <!--<BorgT1point5.description>Nanites have been adapted to function with existing advanced humanoid manufacturing technologies to produce the borg machining station. This station is necessary for the continued development and production of Borg devices.</BorgT1point5.description>-->
+  <!--<BorgT2.label>Regeneration Nanites</BorgT2.label>-->
+  <!--<BorgT2.description>Medical technology adapted to the collective by the introduction of advanced nanites. As the borg circulatory system is built from blood cells infused with molecular nanites, this technology provides access to simple borg prosthetics designed to increase cellular resiliency.</BorgT2.description>-->
+  <!--<BorgT2point5.label>reinforced nanite body glove and armor</BorgT2point5.label>-->
+  <!--<BorgT2point5.description>With the advent of advanced machining technology, nanites have been adapted to enhance the standard drone body by utilizing available material to construct a comprehensive body glove that maintains the optimal temperature of the body, while thick ablative armor prosthetics have been developed to protect against kinetic and energy weaponry.</BorgT2point5.description>-->
+  <!--<BorgT3.label>Assimilated power technologies</BorgT3.label>-->
+  <!--<BorgT3.description>The power requirements for maintaining the systems and devices used onboard Borg vessels and outposts is massive - this research provides avenues for the assimilation and adaptation of other humanoid power devices. The infusion of specifically developed nanites results in a massively increased power output. The power station developed from this technology is powered by chemical fuels.</BorgT3.description>-->
+  <!--<BorgT4.label>Cellular nanite prosthetics technology</BorgT4.label>-->
+  <!--<BorgT4.description>The cellular nanites initially injected into a borg host are simple - at least for the borg. Research and expansion of these nanites results in the development of several prosthetics that can be adapted onto any borg frame to increase the output of a drone in any number of specific fields.</BorgT4.description>-->
+  <!--<BorgT5.label>Advanced nanite prosthetic technologies</BorgT5.label>-->
+  <!--<BorgT5.description>Progress in the cellular nanite field. These advanced cellular nanites have the potential to develop into even sturdier prosthetics to be adapted onto the drone frame.</BorgT5.description>-->
+  <!--<BorgT6.label>Adapted assimilation technologies</BorgT6.label>-->
+  <!--<BorgT6.description>With progress being made in other fields, one area that requires a more delicate focus is that of assimilation. Standard collective technology is barebones, designed to incorporate any humanoid into the collective. As we are disconnected from the main hive, careful steps must be taken as to not destroy the target. This technology results in the adapted nanite probe, an extremely expensive to create assimilation probe.</BorgT6.description>-->
+  <!--<BorgT7.label>Advanced plasma weaponry</BorgT7.label>-->
+  <!--<BorgT7.description>Plasma technology has been a staple of tactically deployed drones both on the ground and in space as ship-based weaponry. With significant advances in plasma and nanite technologies, new weapons have been developed to provide heavy support to any deployed unit.</BorgT7.description>-->
 
 </LanguageData>

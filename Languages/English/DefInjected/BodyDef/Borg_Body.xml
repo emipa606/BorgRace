@@ -1,55 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Borg.label>Borg</Borg.label>
-  <Borg.corePart.parts.6.customLabel>left lung</Borg.corePart.parts.6.customLabel>
-  <Borg.corePart.parts.7.customLabel>right lung</Borg.corePart.parts.7.customLabel>
-  <Borg.corePart.parts.8.customLabel>left kidney</Borg.corePart.parts.8.customLabel>
-  <Borg.corePart.parts.9.customLabel>right kidney</Borg.corePart.parts.9.customLabel>
-  <Borg.corePart.parts.11.parts.0.parts.1.customLabel>left eye</Borg.corePart.parts.11.parts.0.parts.1.customLabel>
-  <Borg.corePart.parts.11.parts.0.parts.2.customLabel>right eye</Borg.corePart.parts.11.parts.0.parts.2.customLabel>
-  <Borg.corePart.parts.11.parts.0.parts.3.customLabel>left ear</Borg.corePart.parts.11.parts.0.parts.3.customLabel>
-  <Borg.corePart.parts.11.parts.0.parts.4.customLabel>right ear</Borg.corePart.parts.11.parts.0.parts.4.customLabel>
-  <Borg.corePart.parts.12.customLabel>left shoulder</Borg.corePart.parts.12.customLabel>
-  <Borg.corePart.parts.12.parts.0.customLabel>left clavicle</Borg.corePart.parts.12.parts.0.customLabel>
-  <Borg.corePart.parts.12.parts.1.customLabel>left arm</Borg.corePart.parts.12.parts.1.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.0.customLabel>left humerus</Borg.corePart.parts.12.parts.1.parts.0.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.1.customLabel>left radius</Borg.corePart.parts.12.parts.1.parts.1.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.2.customLabel>left hand</Borg.corePart.parts.12.parts.1.parts.2.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>left pinky</Borg.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>left ring finger</Borg.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>left middle finger</Borg.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>left index finger</Borg.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
-  <Borg.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>left thumb</Borg.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
-  <Borg.corePart.parts.13.customLabel>right shoulder</Borg.corePart.parts.13.customLabel>
-  <Borg.corePart.parts.13.parts.0.customLabel>right clavicle</Borg.corePart.parts.13.parts.0.customLabel>
-  <Borg.corePart.parts.13.parts.1.customLabel>right arm</Borg.corePart.parts.13.parts.1.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.0.customLabel>right humerus</Borg.corePart.parts.13.parts.1.parts.0.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.1.customLabel>right radius</Borg.corePart.parts.13.parts.1.parts.1.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.2.customLabel>right hand</Borg.corePart.parts.13.parts.1.parts.2.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>right pinky</Borg.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>right ring finger</Borg.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>right middle finger</Borg.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>right index finger</Borg.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
-  <Borg.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>right thumb</Borg.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
-  <Borg.corePart.parts.15.customLabel>left leg</Borg.corePart.parts.15.customLabel>
-  <Borg.corePart.parts.15.parts.0.customLabel>left femur</Borg.corePart.parts.15.parts.0.customLabel>
-  <Borg.corePart.parts.15.parts.1.customLabel>left tibia</Borg.corePart.parts.15.parts.1.customLabel>
-  <Borg.corePart.parts.15.parts.2.customLabel>left foot</Borg.corePart.parts.15.parts.2.customLabel>
-  <Borg.corePart.parts.15.parts.2.parts.0.customLabel>left little toe</Borg.corePart.parts.15.parts.2.parts.0.customLabel>
-  <Borg.corePart.parts.15.parts.2.parts.1.customLabel>left fourth toe</Borg.corePart.parts.15.parts.2.parts.1.customLabel>
-  <Borg.corePart.parts.15.parts.2.parts.2.customLabel>left middle toe</Borg.corePart.parts.15.parts.2.parts.2.customLabel>
-  <Borg.corePart.parts.15.parts.2.parts.3.customLabel>left second toe</Borg.corePart.parts.15.parts.2.parts.3.customLabel>
-  <Borg.corePart.parts.15.parts.2.parts.4.customLabel>left big toe</Borg.corePart.parts.15.parts.2.parts.4.customLabel>
-  <Borg.corePart.parts.16.customLabel>right leg</Borg.corePart.parts.16.customLabel>
-  <Borg.corePart.parts.16.parts.0.customLabel>right femur</Borg.corePart.parts.16.parts.0.customLabel>
-  <Borg.corePart.parts.16.parts.1.customLabel>right tibia</Borg.corePart.parts.16.parts.1.customLabel>
-  <Borg.corePart.parts.16.parts.2.customLabel>right foot</Borg.corePart.parts.16.parts.2.customLabel>
-  <Borg.corePart.parts.16.parts.2.parts.0.customLabel>right little toe</Borg.corePart.parts.16.parts.2.parts.0.customLabel>
-  <Borg.corePart.parts.16.parts.2.parts.1.customLabel>right fourth toe</Borg.corePart.parts.16.parts.2.parts.1.customLabel>
-  <Borg.corePart.parts.16.parts.2.parts.2.customLabel>right middle toe</Borg.corePart.parts.16.parts.2.parts.2.customLabel>
-  <Borg.corePart.parts.16.parts.2.parts.3.customLabel>right second toe</Borg.corePart.parts.16.parts.2.parts.3.customLabel>
-  <Borg.corePart.parts.16.parts.2.parts.4.customLabel>right big toe</Borg.corePart.parts.16.parts.2.parts.4.customLabel>
-
+  <!--<Borg.label>Borg</Borg.label>-->
+  <!--<Borg.corePart.parts.6.customLabel>left lung</Borg.corePart.parts.6.customLabel>-->
+  <!--<Borg.corePart.parts.7.customLabel>right lung</Borg.corePart.parts.7.customLabel>-->
+  <!--<Borg.corePart.parts.8.customLabel>left kidney</Borg.corePart.parts.8.customLabel>-->
+  <!--<Borg.corePart.parts.9.customLabel>right kidney</Borg.corePart.parts.9.customLabel>-->
+  <!--<Borg.corePart.parts.11.parts.0.parts.1.customLabel>left eye</Borg.corePart.parts.11.parts.0.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.11.parts.0.parts.2.customLabel>right eye</Borg.corePart.parts.11.parts.0.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.11.parts.0.parts.3.customLabel>left ear</Borg.corePart.parts.11.parts.0.parts.3.customLabel>-->
+  <!--<Borg.corePart.parts.11.parts.0.parts.4.customLabel>right ear</Borg.corePart.parts.11.parts.0.parts.4.customLabel>-->
+  <!--<Borg.corePart.parts.12.customLabel>left shoulder</Borg.corePart.parts.12.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.0.customLabel>left clavicle</Borg.corePart.parts.12.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.customLabel>left arm</Borg.corePart.parts.12.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.0.customLabel>left humerus</Borg.corePart.parts.12.parts.1.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.1.customLabel>left radius</Borg.corePart.parts.12.parts.1.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.2.customLabel>left hand</Borg.corePart.parts.12.parts.1.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>left pinky</Borg.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>left ring finger</Borg.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>left middle finger</Borg.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>left index finger</Borg.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>-->
+  <!--<Borg.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>left thumb</Borg.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>-->
+  <!--<Borg.corePart.parts.13.customLabel>right shoulder</Borg.corePart.parts.13.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.0.customLabel>right clavicle</Borg.corePart.parts.13.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.customLabel>right arm</Borg.corePart.parts.13.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.0.customLabel>right humerus</Borg.corePart.parts.13.parts.1.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.1.customLabel>right radius</Borg.corePart.parts.13.parts.1.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.2.customLabel>right hand</Borg.corePart.parts.13.parts.1.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>right pinky</Borg.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>right ring finger</Borg.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>right middle finger</Borg.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>right index finger</Borg.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>-->
+  <!--<Borg.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>right thumb</Borg.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>-->
+  <!--<Borg.corePart.parts.15.customLabel>left leg</Borg.corePart.parts.15.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.0.customLabel>left femur</Borg.corePart.parts.15.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.1.customLabel>left tibia</Borg.corePart.parts.15.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.2.customLabel>left foot</Borg.corePart.parts.15.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.2.parts.0.customLabel>left little toe</Borg.corePart.parts.15.parts.2.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.2.parts.1.customLabel>left fourth toe</Borg.corePart.parts.15.parts.2.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.2.parts.2.customLabel>left middle toe</Borg.corePart.parts.15.parts.2.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.2.parts.3.customLabel>left second toe</Borg.corePart.parts.15.parts.2.parts.3.customLabel>-->
+  <!--<Borg.corePart.parts.15.parts.2.parts.4.customLabel>left big toe</Borg.corePart.parts.15.parts.2.parts.4.customLabel>-->
+  <!--<Borg.corePart.parts.16.customLabel>right leg</Borg.corePart.parts.16.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.0.customLabel>right femur</Borg.corePart.parts.16.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.1.customLabel>right tibia</Borg.corePart.parts.16.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.2.customLabel>right foot</Borg.corePart.parts.16.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.2.parts.0.customLabel>right little toe</Borg.corePart.parts.16.parts.2.parts.0.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.2.parts.1.customLabel>right fourth toe</Borg.corePart.parts.16.parts.2.parts.1.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.2.parts.2.customLabel>right middle toe</Borg.corePart.parts.16.parts.2.parts.2.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.2.parts.3.customLabel>right second toe</Borg.corePart.parts.16.parts.2.parts.3.customLabel>-->
+  <!--<Borg.corePart.parts.16.parts.2.parts.4.customLabel>right big toe</Borg.corePart.parts.16.parts.2.parts.4.customLabel>-->
 
 </LanguageData>

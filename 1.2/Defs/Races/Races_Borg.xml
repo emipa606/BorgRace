@@ -85,9 +85,13 @@
         </alienPartGenerator>
         <chemicalSettings>
           <li>
-            <chemical>Beer</chemical>
+            <chemical>Alcohol</chemical>
             <ingestible>false</ingestible>
           </li>
+          <!-- <li> -->
+          <!-- <chemical>Beer</chemical> -->
+          <!-- <ingestible>false</ingestible> -->
+          <!-- </li> -->
           <li>
             <chemical>Ambrosia</chemical>
             <ingestible>false</ingestible>
@@ -100,24 +104,28 @@
             <chemical>Luciferium</chemical>
             <ingestible>false</ingestible>
           </li>
+          <!-- <li> -->
+          <!-- <chemical>Penoxycyline</chemical> -->
+          <!-- <ingestible>false</ingestible> -->
+          <!-- </li> -->
           <li>
-            <chemical>Penoxycyline</chemical>
+            <chemical>Psychite</chemical>
             <ingestible>false</ingestible>
           </li>
+          <!-- <li> -->
+          <!-- <chemical>Flake</chemical> -->
+          <!-- <ingestible>false</ingestible> -->
+          <!-- </li> -->
+          <!-- <li> -->
+          <!-- <chemical>PsychiteTea</chemical> -->
+          <!-- <ingestible>false</ingestible> -->
+          <!-- </li> -->
+          <!-- <li> -->
+          <!-- <chemical>Yayo</chemical> -->
+          <!-- <ingestible>false</ingestible> -->
+          <!-- </li> -->
           <li>
-            <chemical>Flake</chemical>
-            <ingestible>false</ingestible>
-          </li>
-          <li>
-            <chemical>PsychiteTea</chemical>
-            <ingestible>false</ingestible>
-          </li>
-          <li>
-            <chemical>Yayo</chemical>
-            <ingestible>false</ingestible>
-          </li>
-          <li>
-            <chemical>SmokeleafJoint</chemical>
+            <chemical>Smokeleaf</chemical>
             <ingestible>false</ingestible>
           </li>
           <li>
@@ -151,8 +159,8 @@
           <li>BorgMachiningStation</li>
           <li>BorgResearchBench</li>
           <li>BorgWaystation</li>
-          <li>BorgTile</li>
-          <li>BorgTileB</li>
+          <!-- <li>BorgTile</li> -->
+          <!-- <li>BorgTileB</li> -->
           <li>BorgGenerator</li>
           <li>BorgPowerConduit</li>
           <li>BorgBattery</li>
