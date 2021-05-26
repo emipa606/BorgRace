@@ -41,6 +41,7 @@
           <BorgDrone>100</BorgDrone>
           <BorgDrone2>20</BorgDrone2>
           <BorgDrone2>50</BorgDrone2>
+          <BorgCommand>1</BorgCommand>
         </options>
       </li>
       <li>

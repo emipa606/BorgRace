@@ -114,6 +114,7 @@
     <label>borg secondary adjunct</label>
     <defaultFactionType>BorgCollective</defaultFactionType>
     <combatPower>90</combatPower>
+    <factionLeader>true</factionLeader>
     <apparelMoney>
       <min>2300</min>
       <max>7000</max>

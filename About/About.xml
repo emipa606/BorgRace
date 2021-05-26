@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Borg Race (Continued)</name>
   <packageId>Mlie.BorgRace</packageId>
@@ -89,6 +89,6 @@ Thanks to Thirite and Erdelf for all their help. :)
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
-
