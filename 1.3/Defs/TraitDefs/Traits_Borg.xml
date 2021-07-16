@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>Borg</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>borg</label>
+        <description>{PAWN_nameDef} is a member of the borg collective. {PAWN_pronoun} will seek to assimilate all forms of life. Resistance is futile.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  <TraitDef>
+    <defName>Hivemind</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>borg hivemind</label>
+        <description>{PAWN_nameDef} is a member of the collective borg hivemind. {PAWN_pronoun} has access to the near limitless intellectual capacities of the borg. As such, {PAWN_pronoun} is extremely resistant to any affect on mood - borg are, essentially emotionless.</description>
+        <statOffsets>
+          <GlobalLearningFactor>0.8</GlobalLearningFactor>
+          <MentalBreakThreshold>-0.33</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  <TraitDef>
+    <defName>BorgProsthetics</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>nanite proshetics</label>
+        <description>{PAWN_nameDef}, on initial assimilation, was fitted with a number of basic prosthetic and cybernetic improvements to their organic body. This has resulted in a more efficient work rate.</description>
+        <statOffsets>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>
