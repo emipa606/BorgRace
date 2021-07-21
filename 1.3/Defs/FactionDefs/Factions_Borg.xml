@@ -6,6 +6,7 @@
     <description>A station built and maintained by the Borg for the assimilation of the planets humanoid populations.</description>
     <pawnsPlural>Borg</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <settlementGenerationWeight>.2</settlementGenerationWeight>
     <canSiege>true</canSiege>
     <factionIconPath>Things/Borg/Items/BorgHome</factionIconPath>
