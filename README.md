@@ -29,20 +29,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2148623168
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
 
-Sorry guys, can&apos;t update anytime soon.
+Sorry guys, can't update anytime soon.
 
 Hello and welcome to version 1.0 of the Borg Race and Faction.
 
 This mod essentially creates the basis of a borg race structure. There is an enemy faction hostile to everyone who want to assimilate and destroy everything else. There is also the option (using edb prepare carefully) for the player to start their own borg colony and assimilate. See above for some helpful infographics to understand the new buildings.
 
 Only borg can build and use the items that are borg-ey.
-Borg eat nutrient paste. That&apos;s it. It can be crafted at the borg nutrient synthesizer.
+Borg eat nutrient paste. That's it. It can be crafted at the borg nutrient synthesizer.
 Assimilation probes currently do not break on use, but that will change in the future. There is an exceptionally long cooldown time now to keep players from just spamming assimilation. They are also very expensive.
 Future releases will increase variation between the borg armors, body types. I am working on this!
 
 
 
-[[HINT]] - If you&apos;re getting raided by the borg, prioritize those with the nanite probes. Otherwise, enjoy watching your population succumb to assimilation. ;D
+[[HINT]] - If you're getting raided by the borg, prioritize those with the nanite probes. Otherwise, enjoy watching your population succumb to assimilation. ;D
 
 To be done
 
@@ -60,7 +60,7 @@ Interested in my other mods?[/]
 -Napoleonic Age - France/Britain/Prussia
 
 
-Let me know if you think of anything you&apos;d like to see. You can also join the borg discussion on discord at the Humanoid Alien Races 2.0 discord channel[discord.gg]
+Let me know if you think of anything you'd like to see. You can also join the borg discussion on discord at the Humanoid Alien Races 2.0 discord channel[discord.gg]
 
 Thanks to Thirite and Erdelf for all their help. :)
 
@@ -75,6 +75,7 @@ Thanks to Thirite and Erdelf for all their help. :)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

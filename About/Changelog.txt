@@ -1,5 +1,8 @@
 # Changelog for BorgRace
 
+1.0.14.0 - Wounds and bionics should now be at the correct place
+
+
 1.0.13.0 - Should now no longer stop faction generation in Ideology
 
 
