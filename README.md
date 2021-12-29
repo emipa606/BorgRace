@@ -1,6 +1,6 @@
 # BorgRace
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of orannjs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=946260992
@@ -14,19 +14,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2073378710
 - Star Trek: Federation faction-mod also updated:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2148623168
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/BorgRace]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Sorry guys, can't update anytime soon.
@@ -65,7 +56,7 @@ Let me know if you think of anything you'd like to see. You can also join the bo
 Thanks to Thirite and Erdelf for all their help. :)
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -75,8 +66,6 @@ Thanks to Thirite and Erdelf for all their help. :)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
-
 
 
 

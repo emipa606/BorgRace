@@ -1,5 +1,8 @@
 # Changelog for BorgRace
 
+1.0.15.0 - Fixed the now required smeltable-tag on the blaster
+
+
 1.0.14.0 - Wounds and bionics should now be at the correct place
 
 

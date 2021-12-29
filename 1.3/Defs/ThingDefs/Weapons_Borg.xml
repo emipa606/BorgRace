@@ -57,6 +57,7 @@
     <smeltProducts>
       <Steel>20</Steel>
     </smeltProducts>
+    <smeltable>true</smeltable>
   </ThingDef>
   <ThingDef Name="BaseBorgMeleeWeapon" Abstract="True">
     <category>Item</category>
