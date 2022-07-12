@@ -1,35 +1,34 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace BorgAssimilate
+namespace BorgAssimilate;
+
+public class Hediff_BorgInfectionPlayer : Hediff_Injury
 {
-    public class Hediff_BorgInfectionPlayer : Hediff_Injury
+    public override void Notify_PawnDied()
     {
-        public override void Notify_PawnDied()
+        base.Notify_PawnDied();
+
+        if (!pawn.def.race.Animal)
         {
-            base.Notify_PawnDied();
+            var corpse = pawn.Corpse;
+            var newBorg1 = PawnGenerator.GeneratePawn(PawnKindDef.Named("PlayerBorgDrone"),
+                FactionUtility.DefaultFactionFrom(FactionDef.Named("BorgCollective")));
+            newBorg1.SetFaction(Faction.OfPlayer);
+            newBorg1.Position = corpse.Position;
+            newBorg1.SpawnSetup(corpse.Map, false);
 
-            if (pawn.def.race.Animal == false)
+            if (corpse != null)
             {
-                var corpse = pawn.Corpse;
-                var newBorg1 = PawnGenerator.GeneratePawn(PawnKindDef.Named("PlayerBorgDrone"),
-                    FactionUtility.DefaultFactionFrom(FactionDef.Named("BorgCollective")));
-                newBorg1.SetFaction(Faction.OfPlayer);
-                newBorg1.Position = corpse.Position;
-                newBorg1.SpawnSetup(corpse.Map, false);
+                corpse.Destroy();
+            }
 
-                if (corpse != null)
-                {
-                    corpse.Destroy();
-                }
-            }
-            else if (pawn.def.race.Animal)
-            {
-                Messages.Message(
-                    "an animal has succumbed to the nanite infection, and have been deemed inappropriate for assimilation. The nanites have consumed and destroyed the corpse.",
-                    MessageTypeDefOf.NeutralEvent);
-                pawn.Corpse.Destroy();
-            }
+            return;
         }
+
+        Messages.Message(
+            "an animal has succumbed to the nanite infection, and have been deemed inappropriate for assimilation. The nanites have consumed and destroyed the corpse.",
+            MessageTypeDefOf.NeutralEvent);
+        pawn.Corpse.Destroy();
     }
 }

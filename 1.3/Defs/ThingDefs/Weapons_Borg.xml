@@ -59,116 +59,21 @@
     </smeltProducts>
     <smeltable>true</smeltable>
   </ThingDef>
-  <ThingDef Name="BaseBorgMeleeWeapon" Abstract="True">
-    <category>Item</category>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
+  <ThingDef Name="BaseBorgMeleeWeapon" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
     <techLevel>Spacer</techLevel>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>BorgNaniteProbe</li>
     </weaponTags>
-    <thingCategories>
-      <li>WeaponsMelee</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Forbiddable" />
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtWeaponMelee</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-    </recipeMaker>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
   </ThingDef>
-  <ThingDef Name="BaseBorgMeleeWeapon1" Abstract="True">
-    <category>Item</category>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
+  <ThingDef Name="BaseBorgMeleeWeapon1" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
     <techLevel>Spacer</techLevel>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>BorgNaniteProbePlayer</li>
     </weaponTags>
-    <thingCategories>
-      <li>WeaponsMelee</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Forbiddable" />
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtWeaponMelee</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
     <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
         <li>BorgMachiningStation</li>
       </recipeUsers>
-      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-    </recipeMaker>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
-  </ThingDef>
-  <ThingDef Name="BaseBorgMeleeWeapon_Sharp" ParentName="BaseBorgMeleeWeapon" Abstract="True">
-    <recipeMaker>
-      <defaultIngredientFilter>
-        <categories>
-          <li>Root</li>
-        </categories>
-        <disallowedThingDefs>
-          <li>Steel</li>
-          <li>Plasteel</li>
-        </disallowedThingDefs>
-      </defaultIngredientFilter>
-    </recipeMaker>
-  </ThingDef>
-  <ThingDef Name="BaseBorgMeleeWeapon_Sharp1" ParentName="BaseBorgMeleeWeapon1" Abstract="True">
-    <recipeMaker>
       <defaultIngredientFilter>
         <categories>
           <li>Root</li>
@@ -181,7 +86,7 @@
     </recipeMaker>
   </ThingDef>
   <!-- ============================================== -->
-  <ThingDef ParentName="BaseBorgMeleeWeapon_Sharp">
+  <ThingDef ParentName="BaseBorgMeleeWeapon">
     <defName>BorgNaniteProbe</defName>
     <label>Borg nanite probe</label>
     <description>A prosthesis extension designed especially for certain drones to be able to deliver the assimilation nanites into a target bloodstream. Once infected, the target will either succumb to his wounds (and the infection), or assimilate. Nanites infect blood vessels, eventually erupting from the skin in cybernetic tumours throughout the victims body. At this point, they are part of the collective.</description>
@@ -199,7 +104,7 @@
     </statBases>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -222,7 +127,7 @@
       </li>
     </tools>
   </ThingDef>
-  <ThingDef ParentName="BaseBorgMeleeWeapon_Sharp1">
+  <ThingDef ParentName="BaseBorgMeleeWeapon1">
     <defName>BorgNaniteProbePlayer</defName>
     <label>adapted borg nanite probe</label>
     <description>A prosthesis extension designed especially for certain drones to be able to deliver the assimilation nanites into a target bloodstream. Once infected, the target will either succumb to his wounds (and the infection), or assimilate. Nanites infect blood vessels, eventually erupting from the skin in cybernetic tumours throughout the victims body. At this point, they are part of the collective.</description>
@@ -238,7 +143,7 @@
       <WorkToMake>16000</WorkToMake>
       <Mass>2.4</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -270,11 +175,11 @@
     <label>nanite injector</label>
   </ToolCapacityDef>
   <ManeuverDef>
-    <defName>BorgNaniteProbe</defName>
+    <defName>naniteInjector</defName>
     <requiredCapacity>naniteInjector</requiredCapacity>
     <verb>
       <verbClass>Verb_MeleeAttackDamage</verbClass>
-      <meleeDamageDef>BorgNaniteProbe</meleeDamageDef>
+      <meleeDamageDef>naniteInjector</meleeDamageDef>
       <soundCast>Interact_Autopistol</soundCast>
     </verb>
     <combatLogRulesHit>Maneuver_Poke_MeleeHit</combatLogRulesHit>
@@ -283,11 +188,11 @@
     <combatLogRulesDodge>Maneuver_Poke_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
   <ManeuverDef>
-    <defName>BorgNaniteProbePlayer</defName>
+    <defName>naniteInjectorPlayer</defName>
     <requiredCapacity>naniteInjectorPlayer</requiredCapacity>
     <verb>
       <verbClass>Verb_MeleeAttackDamage</verbClass>
-      <meleeDamageDef>BorgNaniteProbePlayer</meleeDamageDef>
+      <meleeDamageDef>naniteInjectorPlayer</meleeDamageDef>
       <soundCast>Interact_Autopistol</soundCast>
     </verb>
     <combatLogRulesHit>Maneuver_Poke_MeleeHit</combatLogRulesHit>
