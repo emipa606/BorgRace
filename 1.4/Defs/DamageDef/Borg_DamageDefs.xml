@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef>
+    <defName>naniteInjector</defName>
+    <label>assimilation probe</label>
+    <workerClass>DamageWorker_Stab</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been injected with borg nanites.</deathMessage>
+    <hediff>Stab</hediff>
+    <hediffSolid>BorgInject</hediffSolid>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
+    <!-- <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside> -->
+    <additionalHediffs>
+      <li>
+        <hediff>BorgInfection</hediff>
+        <severityPerDamageDealt>1</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  <DamageDef>
+    <defName>naniteInjectorPlayer</defName>
+    <label>assimilation probe</label>
+    <workerClass>DamageWorker_Stab</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been injected with borg nanites.</deathMessage>
+    <hediff>Stab</hediff>
+    <hediffSolid>BorgInject</hediffSolid>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
+    <!-- <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside> -->
+    <additionalHediffs>
+      <li>
+        <hediff>BorgInfectionPlayer</hediff>
+        <severityPerDamageDealt>1</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+</Defs>

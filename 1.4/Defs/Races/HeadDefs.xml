@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Borg_Female_Average_Narrow</defName>
+    <graphicPath>Borg/Head/Female_Average_Narrow</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Borg_Female_Average_Normal</defName>
+    <graphicPath>Borg/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Borg_Male_Average_Narrow</defName>
+    <graphicPath>Borg/Head/Male_Average_Narrow</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Borg_Male_Average_Normal</defName>
+    <graphicPath>Borg/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+</Defs>

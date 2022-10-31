@@ -18,10 +18,7 @@ public class Hediff_BorgInfectionPlayer : Hediff_Injury
             newBorg1.Position = corpse.Position;
             newBorg1.SpawnSetup(corpse.Map, false);
 
-            if (corpse != null)
-            {
-                corpse.Destroy();
-            }
+            corpse?.Destroy();
 
             return;
         }
