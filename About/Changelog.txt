@@ -1,5 +1,8 @@
 # Changelog for BorgRace
 
+1.4.2 - Some updated textures and fixes to the assimilation issues from the mods original author!
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

@@ -1,41 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <DamageDef>
-    <defName>naniteInjector</defName>
-    <label>assimilation probe</label>
-    <workerClass>DamageWorker_Stab</workerClass>
+  <DamageDef Name="BorgNaniteProbePlayer">
+    <defName>BorgNaniteProbePlayer</defName>
+    <label>Borg Nanite whip</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been injected with borg nanites.</deathMessage>
-    <hediff>Stab</hediff>
-    <hediffSolid>BorgInject</hediffSolid>
-    <impactSoundType>Slice</impactSoundType>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has died by nanite synapse overload.</deathMessage>
+    <hediff>BorgInfectionPlayer</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Sharp</armorCategory>
-    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
-    <!-- <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside> -->
-    <additionalHediffs>
-      <li>
-        <hediff>BorgInfection</hediff>
-        <severityPerDamageDealt>1</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
+    <defaultDamage>5</defaultDamage>
+    <defaultStoppingPower>0.6</defaultStoppingPower>
+    <defaultArmorPenetration>0.10</defaultArmorPenetration>
+    <buildingDamageFactor>20</buildingDamageFactor>
+    <plantDamageFactor>20</plantDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>2</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(0.5, 1, 0.3)</explosionColorCenter>
+    <explosionColorEdge>(0.2, 0.5, 0.3)</explosionColorEdge>
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+    <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
-  <DamageDef>
-    <defName>naniteInjectorPlayer</defName>
-    <label>assimilation probe</label>
-    <workerClass>DamageWorker_Stab</workerClass>
+  <DamageDef Name="BorgNaniteProbe">
+    <defName>BorgNaniteProbe</defName>
+    <label>Borg Nanite whip</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
     <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been injected with borg nanites.</deathMessage>
-    <hediff>Stab</hediff>
-    <hediffSolid>BorgInject</hediffSolid>
-    <impactSoundType>Slice</impactSoundType>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has died by synapse overload.</deathMessage>
+    <hediff>BorgInfection</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Sharp</armorCategory>
-    <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
-    <!-- <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside> -->
-    <additionalHediffs>
-      <li>
-        <hediff>BorgInfectionPlayer</hediff>
-        <severityPerDamageDealt>1</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
+    <defaultDamage>5</defaultDamage>
+    <defaultStoppingPower>0.6</defaultStoppingPower>
+    <defaultArmorPenetration>0.10</defaultArmorPenetration>
+    <buildingDamageFactor>20</buildingDamageFactor>
+    <plantDamageFactor>20</plantDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>2</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(0.5, 1, 0.3)</explosionColorCenter>
+    <explosionColorEdge>(0.2, 0.5, 0.3)</explosionColorEdge>
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+    <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
 </Defs>

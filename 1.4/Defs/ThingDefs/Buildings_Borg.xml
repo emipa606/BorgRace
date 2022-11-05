@@ -243,7 +243,7 @@
         <texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
     </building>
-    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <altitudeLayer>Conduits</altitudeLayer>
     <passability>Standable</passability>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <statBases>
@@ -370,12 +370,12 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-500</basePowerConsumption>
+        <basePowerConsumption>-750</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelConsumptionRate>5.0</fuelConsumptionRate>
         <fuelCapacity>200.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>

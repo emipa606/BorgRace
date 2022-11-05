@@ -104,15 +104,6 @@
             <setMax>0.10</setMax>
           </li>
         </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Dementia</hediff>
-            <mtbDays>13</mtbDays>
-            <partsToAffect>
-              <li>Brain</li>
-            </partsToAffect>
-          </li>
-        </hediffGivers>
       </li>
     </stages>
   </HediffDef>
@@ -121,7 +112,7 @@
     <hediffClass>BorgAssimilate.Hediff_BorgInfectionPlayer</hediffClass>
     <defaultLabelColor>(0.7, 0.7, 0.7)</defaultLabelColor>
     <label>borg nanite probe infection</label>
-    <description>borg nanite probe infection</description>
+    <description>a borg nanite probe infection</description>
     <lethalSeverity>10</lethalSeverity>
     <maxSeverity>10</maxSeverity>
     <makesSickThought>true</makesSickThought>
@@ -184,15 +175,6 @@
             <setMax>0.10</setMax>
           </li>
         </capMods>
-        <hediffGivers>
-          <li Class="HediffGiver_Random">
-            <hediff>Dementia</hediff>
-            <mtbDays>13</mtbDays>
-            <partsToAffect>
-              <li>Brain</li>
-            </partsToAffect>
-          </li>
-        </hediffGivers>
       </li>
     </stages>
   </HediffDef>
@@ -207,7 +189,7 @@
         <labelSolidTendedWell>antibodies</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.7</infectionChance>
+        <infectionChance>1</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>nanite injection scar</permanentLabel>
