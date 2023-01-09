@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=946260992
 
 - Added a playable Borg Scenario.
 - Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2451324814][SYR] Trait Value
+- Improved graphics and some assimilation-fixes via the mods original author
 
 - Medical surgery option added in mod by Darkstar
 https://steamcommunity.com/sharedfiles/filedetails/?id=2073378710
@@ -70,3 +71,4 @@ Thanks to Thirite and Erdelf for all their help. :)
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2042715537]Last updated 2023-01-09
