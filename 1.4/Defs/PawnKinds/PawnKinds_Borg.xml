@@ -68,6 +68,7 @@
     </weaponMoney>
     <apparelTags>
       <li>BorgArmor</li>
+      <li>BeltDefense</li>
     </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="BorgDrone">
@@ -88,6 +89,7 @@
     </weaponTags>
     <apparelTags>
       <li>BorgArmor</li>
+      <li>BeltDefense</li>
     </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="BorgDrone">
@@ -108,6 +110,7 @@
     </weaponTags>
     <apparelTags>
       <li>BorgArmor</li>
+      <li>BeltDefense</li>
     </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="BorgDrone">
@@ -122,6 +125,7 @@
     </apparelMoney>
     <apparelTags>
       <li>BorgArmor</li>
+      <li>BeltDefense</li>
     </apparelTags>
   </PawnKindDef>
   <PawnKindDef ParentName="BorgDrone">
@@ -142,6 +146,7 @@
     </weaponTags>
     <apparelTags>
       <li>BorgArmor</li>
+      <li>BeltDefense</li>
     </apparelTags>
   </PawnKindDef>
 </Defs>

@@ -69,6 +69,4 @@ Thanks to Thirite and Erdelf for all their help. :)
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2042715537]Last updated 2023-01-09
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2042715537]Last updated 2023-08-21

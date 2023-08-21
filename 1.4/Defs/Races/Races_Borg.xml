@@ -153,6 +153,7 @@
       <raceRestriction>
         <apparelList>
           <li>Apparel_BorgArmor</li>
+          <li>Apparel_ShieldBelt</li>
         </apparelList>
         <weaponList>
           <li>Borg_DroneBlaster</li>
