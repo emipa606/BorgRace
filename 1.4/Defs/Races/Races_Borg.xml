@@ -38,6 +38,7 @@
           <li>BorgBed</li>
         </validBeds>
         <immuneToAge>true</immuneToAge>
+        <humanRecipeImport>true</humanRecipeImport>
         <forcedRaceTraitEntries>
           <li>
             <defName>Borg</defName>

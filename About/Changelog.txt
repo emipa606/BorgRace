@@ -1,5 +1,8 @@
 # Changelog for BorgRace
 
+1.4.5 - Borg should now inherit available surgeries form humans
+
+
 1.4.4 - Borgs can now wear shield belts
 
 
