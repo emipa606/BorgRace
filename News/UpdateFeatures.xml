@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="BorgRace_UpdateFeatureBase">
+		<modNameReadable>BorgRace</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2042715537</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="BorgRace_UpdateFeatureBase">
+		<defName>BorgRace_1_4_5</defName>
+		<assemblyVersion>1.4.5</assemblyVersion>
+		<content>Due to a bad interaction with the developer of the HAR framework combined with the increased work required I have decided to not further update this mod. It will stay up to support the previous versions of the game.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+

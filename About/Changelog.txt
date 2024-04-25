@@ -1,5 +1,8 @@
 # Changelog for BorgRace
 
+1.4.6 - Last update, added end-of-life message
+
+
 1.4.5 - Borg should now inherit available surgeries form humans
 
 

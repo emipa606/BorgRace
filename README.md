@@ -15,7 +15,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2073378710
 - Star Trek: Federation faction-mod also updated:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2148623168
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/KFjAmff.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
